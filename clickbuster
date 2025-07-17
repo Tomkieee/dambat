@@ -1,0 +1,50 @@
+export default {
+  async fetch(request, env, ctx) {
+    const { searchParams } = new URL(request.url);
+    const query = searchParams.get("q");
+
+    if (!query) {
+      return new Response(JSON.stringify({ error: "Brak zapytania" }), {
+        status: 400,
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*"
+        }
+      });
+    }
+
+    const response = await fetch(`https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (ClickBusterBot)",
+        "Accept": "text/html"
+      }
+    });
+
+    const html = await response.text();
+
+    function decodeDuckDuckGoUrl(url) {
+      try {
+        const u = new URL(url);
+        if (u.hostname.includes("duckduckgo.com") && u.pathname === "/l/") {
+          const realUrl = u.searchParams.get("uddg");
+          return decodeURIComponent(realUrl || url);
+        }
+      } catch {
+        return url;
+      }
+      return url;
+    }
+
+    const results = [...html.matchAll(/<a rel="nofollow" class="result__a" href="(.*?)">(.+?)<\/a>/g)].map(match => ({
+      url: decodeDuckDuckGoUrl(match[1]),
+      title: match[2].replace(/<[^>]*>/g, "")
+    }));
+
+    return new Response(JSON.stringify(results.slice(0, 5)), {
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
+      }
+    });
+  }
+};
