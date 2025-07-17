@@ -1,0 +1,319 @@
+<div id="savings-calculator">
+  <div style="text-align:center;margin-bottom:15px;">
+    <img src="https://dambat.pl/cdn/shop/files/dambat-logo-orange_150x@2x.png" alt="Dambat Logo" style="max-width:180px;margin-bottom:10px;">
+    <h3 id="title" style="color:#000;margin:0;">Kalkulator oszczędności</h3>
+<div id="lang-buttons" style="margin-top:10px;display:flex;justify-content:center;gap:6px;flex-wrap:wrap;">
+  <button class="lang-btn" data-lang="pl">
+    <img src="https://flagcdn.com/w20/pl.png" style="height:14px;border:1px solid #ccc;"> 🇵🇱
+  </button>
+  <button class="lang-btn" data-lang="en">
+    <img src="https://flagcdn.com/w20/gb.png" style="height:14px;border:1px solid #ccc;"> 🇬🇧
+  </button>
+  <button class="lang-btn" data-lang="de">
+    <img src="https://flagcdn.com/w20/de.png" style="height:14px;border:1px solid #ccc;"> 🇩🇪
+  </button>
+  <button class="lang-btn" data-lang="ro">
+    <img src="https://flagcdn.com/w20/ro.png" style="height:14px;border:1px solid #ccc;"> 🇷🇴
+  </button>
+  <button class="lang-btn" data-lang="cz">
+    <img src="https://flagcdn.com/w20/cz.png" style="height:14px;border:1px solid #ccc;"> 🇨🇿
+  </button>
+  <button class="lang-btn" data-lang="sk">
+    <img src="https://flagcdn.com/w20/sk.png" style="height:14px;border:1px solid #ccc;"> 🇸🇰
+  </button>
+  <button class="lang-btn" data-lang="hu">
+    <img src="https://flagcdn.com/w20/hu.png" style="height:14px;border:1px solid #ccc;"> 🇭🇺
+  </button>
+</div>
+</div>
+
+  <label id="lblCurrentPower">Moc obecnej pompy (W):</label>
+  <input type="number" id="currentPower" value="800">
+
+  <label id="lblHours">Średni czas pracy dziennie (h):</label>
+  <input type="number" id="hoursPerDay" value="5">
+  <div id="errorMsg" style="display:none;color:#d9534f;font-size:13px;margin-bottom:10px;">❗ Wartość nie może przekraczać 24 godzin na dobę.</div>
+
+  <label id="lblEnergyCost">Koszt energii (zł/kWh):</label>
+  <input type="number" id="energyCost" value="0.9" step="0.01">
+
+  <label id="lblNewPower">Moc nowej pompy (W):</label>
+  <input type="number" id="newPower" value="500">
+
+  <label id="lblPumpCost">Koszt zakupu nowej pompy (zł):</label>
+  <input type="number" id="pumpCost" value="1500">
+
+  <button id="btnCalculate">Oblicz oszczędności</button>
+
+  <div id="result" style="margin-top:15px;padding:12px;background:#f9f9f9;border-radius:6px;text-align:center;display:none;">
+    <strong id="resTitle">Wynik:</strong>
+    <p id="resultText" style="margin:8px 0 12px;color:#333;"></p>
+
+    <div style="margin-top:12px;text-align:left;">
+      <div id="lblPercent" style="font-size:13px;color:#555;margin-bottom:3px;">Procent oszczędności:</div>
+      <div style="background:#eee;border-radius:5px;overflow:hidden;height:18px;">
+        <div id="savingsBar" style="height:18px;background:#f37021;width:0%;transition:width 0.6s ease;"></div>
+      </div>
+    </div>
+
+    <div id="roiBox" style="margin-top:15px;padding:10px;border-radius:6px;font-weight:bold;display:none;">
+      ⏳ <span id="lblRoi">Czas zwrotu inwestycji:</span> <span id="roiValue">0</span> <span id="lblMonths">miesięcy</span>
+    </div>
+
+    <div id="lifeExamples" style="margin-top:15px;padding:10px;background:#eef7ff;border-radius:6px;font-size:14px;color:#333;display:none;text-align:center;">
+      <span id="examplesText"></span>
+    </div>
+  </div>
+</div>
+
+<style>
+#savings-calculator {
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+#savings-calculator input, 
+#savings-calculator button:not(.lang-btn) {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#savings-calculator button:not(.lang-btn) {
+  background: #f37021;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#savings-calculator button:not(.lang-btn):hover {
+  background: #d85e12;
+}
+@media (max-width: 480px) {
+  #savings-calculator { max-width:95%; padding:15px; }
+}
+.lang-btn {
+  background: transparent;       /* ✅ bez tła */
+  border: 0px solid #ccc;        /* delikatna ramka */
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 16px;
+  color: #000;                   /* ✅ czarny tekst */
+  width: auto;
+  height: auto;
+}
+
+.lang-btn:hover {
+  background: #f0f0f0;           /* delikatne rozjaśnienie */
+}
+
+.lang-btn img {
+  border-radius: 3px;
+  display: block;
+}
+</style>
+<script>
+window.onload = function(){
+
+  // ✅ PEŁNE TŁUMACZENIA – wklej swoje gotowe wersje
+  const translations = {
+    pl: {
+      title:"Kalkulator oszczędności", lblCurrentPower:"Moc obecnej pompy (W):",
+      lblHours:"Średni czas pracy dziennie (h):", errorMsg:"❗ Wartość nie może przekraczać 24 godzin na dobę.",
+      lblEnergyCost:"Koszt energii (zł/kWh):", lblNewPower:"Moc nowej pompy (W):",
+      lblPumpCost:"Koszt zakupu nowej pompy (zł):", btnCalculate:"Oblicz oszczędności",
+      resTitle:"Wynik:", lblPercent:"Procent oszczędności:", lblRoi:"Czas zwrotu inwestycji:",
+      lblMonths:"miesięcy", saved:"Oszczędzasz", yearly:"Rocznie zaoszczędzisz",
+      currentCost:"Obecny koszt roczny", newCost:"Nowy koszt roczny", currency:"zł",
+      examples:[{text:"cykli prania w pralce 🧺",factor:1},{text:"godzin oglądania telewizji 📺",factor:2.5},
+               {text:"godzin pracy laptopa 💻",factor:3.5},{text:"tostów w opiekaczu 🍞",factor:15},
+               {text:"dni pracy lodówki ❄️",factor:1.25}]
+    },
+    en: {
+      title:"Savings Calculator", lblCurrentPower:"Current pump power (W):",
+      lblHours:"Average daily operation time (h):", errorMsg:"❗ Value cannot exceed 24 hours per day.",
+      lblEnergyCost:"Energy cost (€/kWh):", lblNewPower:"New pump power (W):",
+      lblPumpCost:"New pump purchase cost (€):", btnCalculate:"Calculate savings",
+      resTitle:"Result:", lblPercent:"Savings percentage:", lblRoi:"Return on investment:",
+      lblMonths:"months", saved:"You save", yearly:"You save yearly",
+      currentCost:"Current yearly cost", newCost:"New yearly cost", currency:"€",
+      examples:[{text:"washing cycles 🧺",factor:1},{text:"hours of watching TV 📺",factor:2.5},
+               {text:"hours of laptop work 💻",factor:3.5},{text:"toasts in a toaster 🍞",factor:15},
+               {text:"days of fridge operation ❄️",factor:1.25}]
+    },
+de: {
+  title:"Ersparnisrechner", lblCurrentPower:"Leistung der aktuellen Pumpe (W):",
+  lblHours:"Durchschnittliche Betriebszeit pro Tag (h):", errorMsg:"❗ Der Wert darf 24 Stunden pro Tag nicht überschreiten.",
+  lblEnergyCost:"Energiekosten (€/kWh):", lblNewPower:"Leistung der neuen Pumpe (W):",
+  lblPumpCost:"Anschaffungskosten der neuen Pumpe (€):", btnCalculate:"Ersparnis berechnen",
+  resTitle:"Ergebnis:", lblPercent:"Ersparnis in Prozent:", lblRoi:"Amortisationszeit:",
+  lblMonths:"Monate", saved:"Du sparst", yearly:"Du sparst jährlich",
+  currentCost:"Jährliche Kosten aktuell", newCost:"Neue jährliche Kosten", currency:"€",
+  examples:[
+    {text:"Waschzyklen 🧺",factor:1},
+    {text:"Stunden Fernsehen 📺",factor:2.5},
+    {text:"Stunden Laptoparbeit 💻",factor:3.5},
+    {text:"Toastbrote im Toaster 🍞",factor:15},
+    {text:"Tage Kühlschrankbetrieb ❄️",factor:1.25}
+  ]
+},
+ro: {
+  title:"Calculator de economii", lblCurrentPower:"Puterea pompei actuale (W):",
+  lblHours:"Timp mediu de funcționare zilnic (h):", errorMsg:"❗ Valoarea nu poate depăși 24 de ore pe zi.",
+  lblEnergyCost:"Cost energie (€/kWh):", lblNewPower:"Puterea noii pompe (W):",
+  lblPumpCost:"Cost achiziție pompă nouă (€):", btnCalculate:"Calculează economiile",
+  resTitle:"Rezultat:", lblPercent:"Procent economie:", lblRoi:"Timp amortizare:",
+  lblMonths:"luni", saved:"Economisești", yearly:"Economisești anual",
+  currentCost:"Cost anual actual", newCost:"Cost anual nou", currency:"€",
+  examples:[
+    {text:"cicluri de spălare 🧺",factor:1},
+    {text:"ore de vizionare TV 📺",factor:2.5},
+    {text:"ore de lucru la laptop 💻",factor:3.5},
+    {text:"felii de pâine prăjită 🍞",factor:15},
+    {text:"zile de funcționare a frigiderului ❄️",factor:1.25}
+  ]
+},
+cz: {
+  title:"Kalkulačka úspor", lblCurrentPower:"Výkon stávajícího čerpadla (W):",
+  lblHours:"Průměrná denní doba provozu (h):", errorMsg:"❗ Hodnota nesmí překročit 24 hodin denně.",
+  lblEnergyCost:"Cena energie (€/kWh):", lblNewPower:"Výkon nového čerpadla (W):",
+  lblPumpCost:"Cena nové pumpy (€):", btnCalculate:"Spočítat úspory",
+  resTitle:"Výsledek:", lblPercent:"Procento úspor:", lblRoi:"Návratnost investice:",
+  lblMonths:"měsíců", saved:"Ušetříte", yearly:"Ročně ušetříte",
+  currentCost:"Současné roční náklady", newCost:"Nové roční náklady", currency:"€",
+  examples:[
+    {text:"cyklů praní 🧺",factor:1},
+    {text:"hodin sledování televize 📺",factor:2.5},
+    {text:"hodin práce na notebooku 💻",factor:3.5},
+    {text:"toastů v toustovači 🍞",factor:15},
+    {text:"dní provozu lednice ❄️",factor:1.25}
+  ]
+},
+sk: {
+  title:"Kalkulačka úspor", lblCurrentPower:"Výkon súčasného čerpadla (W):",
+  lblHours:"Priemerný denný čas prevádzky (h):", errorMsg:"❗ Hodnota nesmie prekročiť 24 hodín denne.",
+  lblEnergyCost:"Cena energie (€/kWh):", lblNewPower:"Výkon novej pumpy (W):",
+  lblPumpCost:"Cena novej pumpy (€):", btnCalculate:"Vypočítať úspory",
+  resTitle:"Výsledok:", lblPercent:"Percento úspor:", lblRoi:"Návratnosť investície:",
+  lblMonths:"mesiacov", saved:"Ušetríte", yearly:"Ročne ušetríte",
+  currentCost:"Súčasné ročné náklady", newCost:"Nové ročné náklady", currency:"€",
+  examples:[
+    {text:"pracích cyklov 🧺",factor:1},
+    {text:"hodín sledovania televízie 📺",factor:2.5},
+    {text:"hodín práce na notebooku 💻",factor:3.5},
+    {text:"toastov v toustovači 🍞",factor:15},
+    {text:"dní prevádzky chladničky ❄️",factor:1.25}
+  ]
+},
+hu: {
+  title:"Megtakarítás kalkulátor", lblCurrentPower:"Jelenlegi szivattyú teljesítménye (W):",
+  lblHours:"Napi átlagos üzemidő (h):", errorMsg:"❗ Az érték nem haladhatja meg a napi 24 órát.",
+  lblEnergyCost:"Energia költsége (€/kWh):", lblNewPower:"Új szivattyú teljesítménye (W):",
+  lblPumpCost:"Új szivattyú ára (€):", btnCalculate:"Megtakarítás számítása",
+  resTitle:"Eredmény:", lblPercent:"Megtakarítás százaléka:", lblRoi:"Befektetés megtérülése:",
+  lblMonths:"hónap", saved:"Megtakarítás", yearly:"Évente megtakarítasz",
+  currentCost:"Jelenlegi éves költség", newCost:"Új éves költség", currency:"€",
+  examples:[
+    {text:"mosási ciklus 🧺",factor:1},
+    {text:"óra tévénézés 📺",factor:2.5},
+    {text:"óra laptop használat 💻",factor:3.5},
+    {text:"pirítós 🍞",factor:15},
+    {text:"nap hűtő üzemelés ❄️",factor:1.25}
+  ]
+}
+  };
+
+  let currentLang = "pl";
+
+  function changeLang(lang){
+    currentLang = lang;
+    const t = translations[lang];
+    document.getElementById("title").textContent = t.title;
+    document.getElementById("lblCurrentPower").textContent = t.lblCurrentPower;
+    document.getElementById("lblHours").textContent = t.lblHours;
+    document.getElementById("errorMsg").textContent = t.errorMsg;
+    document.getElementById("lblEnergyCost").textContent = t.lblEnergyCost;
+    document.getElementById("lblNewPower").textContent = t.lblNewPower;
+    document.getElementById("lblPumpCost").textContent = t.lblPumpCost;
+    document.getElementById("btnCalculate").textContent = t.btnCalculate;
+    document.getElementById("resTitle").textContent = t.resTitle;
+    document.getElementById("lblPercent").textContent = t.lblPercent;
+    document.getElementById("lblRoi").textContent = t.lblRoi;
+    document.getElementById("lblMonths").textContent = t.lblMonths;
+  }
+
+  function smartRound(v){if(v<100)return Math.round(v/10)*10;if(v<1000)return Math.round(v/100)*100;return Math.round(v/100)*100;}
+
+  function animateValue(id,start,end,duration){
+    const el=document.getElementById(id);let st=null;
+    function step(ts){if(!st)st=ts;const p=Math.min((ts-st)/duration,1);el.textContent=Math.floor(p*(end-start)+start);if(p<1)window.requestAnimationFrame(step);}
+    window.requestAnimationFrame(step);
+  }
+
+  function calculateSavings(){
+    const t = translations[currentLang];
+    const currentPower=parseFloat(document.getElementById('currentPower').value)/1000;
+    const hoursPerDay=parseFloat(document.getElementById('hoursPerDay').value);
+    const energyCost=parseFloat(document.getElementById('energyCost').value);
+    const newPower=parseFloat(document.getElementById('newPower').value)/1000;
+    const pumpCost=parseFloat(document.getElementById('pumpCost').value);
+
+    const errorMsg=document.getElementById('errorMsg');
+    if(hoursPerDay>24){errorMsg.style.display="block";document.getElementById('result').style.display="none";return;}
+    else{errorMsg.style.display="none";}
+
+    const daysPerYear=365;
+    const currentCost=currentPower*hoursPerDay*daysPerYear*energyCost;
+    const newCost=newPower*hoursPerDay*daysPerYear*energyCost;
+    const savings=currentCost-newCost;
+    const roiMonths=savings>0?(pumpCost/(savings/12)):0;
+    const savingsPercent=((savings/currentCost)*100).toFixed(1);
+    const savedKwhRaw=(currentPower-newPower)*hoursPerDay*daysPerYear;
+
+    document.getElementById('result').style.display='block';
+    document.getElementById('resultText').innerHTML=
+      `${t.currentCost}: <strong>${currentCost.toFixed(2)} ${t.currency}</strong><br>
+       ${t.newCost}: <strong>${newCost.toFixed(2)} ${t.currency}</strong><br>
+       <span style="color:${savings>=0?'#f37021':'#d9534f'};">${t.saved}: <strong>${savings.toFixed(2)} ${t.currency}</strong></span>`;
+
+    const savingsBar=document.getElementById('savingsBar');
+    if(savings<=0){savingsBar.style.width="5%";savingsBar.style.background="#d9534f";}
+    else{savingsBar.style.width=savingsPercent+"%";savingsBar.style.background="#f37021";}
+
+    const roiBox=document.getElementById('roiBox');
+    roiBox.style.display=savings>0?'block':'none';
+    roiBox.style.background=roiMonths<=24?'#d4f7d4':'#fff7d4';
+    roiBox.style.color=roiMonths<=24?'#2b7a2b':'#a67c00';
+    animateValue("roiValue",0,Math.round(roiMonths),1200);
+
+    const examplesBox=document.getElementById('lifeExamples');
+    if(savings>0){
+      const ex=t.examples[Math.floor(Math.random()*t.examples.length)];
+      const exVal=smartRound(savedKwhRaw*ex.factor);
+      document.getElementById('examplesText').innerHTML=
+        `💡 ${t.yearly} <strong>${savedKwhRaw.toFixed(1)} kWh</strong>, <br>${exVal} ${ex.text}.`;
+      examplesBox.style.display='block';
+    }else{examplesBox.style.display='none';}
+  }
+
+  document.querySelectorAll("#lang-buttons button").forEach(btn=>{
+    btn.addEventListener("click",()=>changeLang(btn.dataset.lang));
+  });
+  document.getElementById("btnCalculate").addEventListener("click",calculateSavings);
+};
+</script>
+<h4 style="margin-top: 0; color: #000;">Oblicz, ile możesz zaoszczędzić</h4>
+<p>Nasz <strong>kalkulator oszczędności energii dla pomp</strong> pozwala w kilka sekund sprawdzić, ile pieniędzy możesz zaoszczędzić, wymieniając pompę na bardziej energooszczędny model. Dzięki obliczeniom poznasz <strong>roczny koszt pracy pompy</strong>, <strong>czas zwrotu inwestycji</strong> oraz ilość <strong>zaoszczędzonej energii w kWh</strong>.</p>
+<p>Dodatkowo pokazujemy praktyczne przykłady, na co możesz przeznaczyć zaoszczędzoną energię – w godzinach pracy urządzeń codziennego użytku. To prosty sposób, by przekonać się, że <strong>energooszczędne pompy</strong> to korzyść dla Twojego portfela i środowiska.</p>
+<h2>Pompuj z gową, nie przepłacaj!</h2>
