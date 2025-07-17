@@ -1,0 +1,155 @@
+<div class="flow-calculator">
+  <div class="calculator">
+    <a href="https://dambat.pl" target="_blank">
+      <img class="logo" src="https://dambat.pl/cdn/shop/files/logo_ibo_clean.png" alt="Logo IBO">
+    </a>
+    <form id="converterForm">
+      <label for="value">Wartość wejściowa:</label>
+      <input type="text" id="value" placeholder="Wprowadź wartość, np. 3,5 lub 3.5">
+
+      <label for="fromUnit">Z jednostki:</label>
+      <select id="fromUnit">
+        <option value="m3/h">m³/h</option>
+        <option value="l/min">l/min</option>
+        <option value="l/s">l/s</option>
+        <option value="ft3/min">ft³/min</option>
+        <option value="ft3/s">ft³/s</option>
+        <option value="gal/min">gal/min (US)</option>
+        <option value="gal/s">gal/s (US)</option>
+      </select>
+
+      <label for="toUnit">Na jednostkę:</label>
+      <select id="toUnit">
+        <option value="m3/h">m³/h</option>
+        <option value="l/min">l/min</option>
+        <option value="l/s">l/s</option>
+        <option value="ft3/min">ft³/min</option>
+        <option value="ft3/s">ft³/s</option>
+        <option value="gal/min">gal/min (US)</option>
+        <option value="gal/s">gal/s (US)</option>
+      </select>
+
+      <button type="submit">Przelicz</button>
+    </form>
+    <div class="result" id="result">Wynik pojawi się tutaj</div>
+    <button type="button" id="copyBtn">Kopiuj wynik</button>
+  </div>
+</div>
+
+<style>
+.flow-calculator * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flow-calculator {
+  --background-color: #f4f7f8;
+  --text-color: #333;
+  --input-background: #fff;
+  --button-background: #007BFF;
+  --button-hover: #0056b3;
+  --result-background: #e0f7fa;
+
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.flow-calculator .calculator {
+  background: var(--input-background);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.flow-calculator label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.flow-calculator input,
+.flow-calculator select,
+.flow-calculator button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.flow-calculator button {
+  background-color: var(--button-background);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.flow-calculator button:hover {
+  background-color: var(--button-hover);
+}
+.flow-calculator .result {
+  font-weight: bold;
+  background: var(--result-background);
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 1.4em;
+}
+.flow-calculator .logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 150px;
+}
+</style>
+
+<script>
+const ratesToM3h = {
+  "m3/h": 1,
+  "l/min": 0.06,
+  "l/s": 3.6,
+  "ft3/min": 1.699,
+  "ft3/s": 101.94,
+  "gal/min": 0.2271,
+  "gal/s": 13.627
+};
+
+const form = document.getElementById('converterForm');
+const resultDiv = document.getElementById('result');
+const copyBtn = document.getElementById('copyBtn');
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const rawInput = document.getElementById('value').value.replace(',', '.');
+  const value = parseFloat(rawInput);
+
+  const from = document.getElementById('fromUnit').value;
+  const to = document.getElementById('toUnit').value;
+
+  if (isNaN(value)) {
+    resultDiv.textContent = 'Wprowadź poprawną wartość.';
+    return;
+  }
+
+  const inM3h = value * ratesToM3h[from];
+  const converted = inM3h / ratesToM3h[to];
+  const finalValue = converted.toLocaleString('pl-PL', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+  resultDiv.textContent = `${finalValue} ${to}`;
+});
+
+copyBtn.addEventListener('click', function () {
+  const resultText = resultDiv.textContent;
+  if (resultText && resultText !== 'Wynik pojawi się tutaj') {
+    navigator.clipboard.writeText(resultText).then(() => {
+      alert('Wynik został skopiowany do schowka!');
+    }).catch(() => {
+      alert('Nie udało się skopiować wyniku.');
+    });
+  }
+});
+</script>
