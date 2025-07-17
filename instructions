@@ -1,0 +1,178 @@
+<div style="margin-top: 40px; margin-bottom: 20px;">
+  <input id="searchInput" type="text" placeholder="Wpisz nazwę pompy, model lub frazę..." style="width: 100%; padding: 12px 16px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px;">
+</div>
+
+<div id="resultsContainer">
+  <p>Ładowanie wyników...</p>
+</div>
+
+<script>
+  const logos = {
+    "ibo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593",
+    "ibo italy": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png?v=1677505950",
+    "iq pr": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460",
+    "dreno": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+  };
+
+  function createResultHTML(data) {
+    const grouped = {};
+    data.forEach(item => {
+      const brand = item.brand || 'Inne';
+      if (!grouped[brand]) grouped[brand] = [];
+      grouped[brand].push(item);
+    });
+
+    let html = '';
+    for (const brand in grouped) {
+      html += `<h2 style="font-size: 22px; margin-top: 40px; margin-bottom: 20px;">${brand}</h2><div class="pdfList">`;
+      grouped[brand].forEach(item => {
+        const logo = logos[brand.toLowerCase()] || '';
+        html += `
+          <a href="${item.href}" download target="_blank" style="text-decoration: none; color: inherit;">
+            <div style="padding: 12px 0; border-bottom: 1px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 16px;"><img src="${logo}" alt="${brand}" style="height: 24px; vertical-align: middle; margin-right: 8px;">${item.title}</span>
+              <img src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/download.png?v=1676631207" alt="Pobierz" style="width: 32px; height: 32px;">
+            </div>
+          </a>`;
+      });
+      html += '</div>';
+    }
+    return html || '<p>Brak wyników dla podanej frazy.</p>';
+  }
+
+  async function fetchInstructions(query = "") {
+    try {
+      const url = query.length >= 2
+        ? `https://wyszukiwarka-instrukcji.tomasz-fastyn.workers.dev/?q=${encodeURIComponent(query)}`
+        : `https://wyszukiwarka-instrukcji.tomasz-fastyn.workers.dev/`;
+      const res = await fetch(url);
+      const data = await res.json();
+      document.getElementById("resultsContainer").innerHTML = createResultHTML(data);
+    } catch (error) {
+      console.error("Błąd podczas pobierania instrukcji:", error);
+      document.getElementById("resultsContainer").innerHTML = '<p>Wystąpił błąd. Spróbuj ponownie później.</p>';
+    }
+  }
+
+  function resetAndLoadAll() {
+    document.getElementById("searchInput").value = '';
+    fetchInstructions();
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("searchInput");
+    if (!searchInput) return;
+
+    fetchInstructions();
+
+    searchInput.addEventListener("input", function () {
+      const query = this.value.trim();
+      fetchInstructions(query);
+    });
+  });
+</script>
+<!-- SEKCJA SEO + FAQ -->
+<section style="margin-top: 60px; padding: 30px; background-color: #f9f9f9; border-radius: 8px;">
+  <h2 style="font-size: 26px; margin-bottom: 20px;">Instrukcje obsługi pomp IBO, IBO Italy, IQ PR i Dreno – instrukcje PDF do pobrania</h2>
+  <p style="font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+    Na tej stronie znajdziesz kompletny zestaw instrukcji obsługi urządzeń marek <strong>IBO</strong>, <strong>Dreno</strong>, <strong>IQ PR</strong> oraz <strong>IBO Italy</strong>. Każda instrukcja jest dostępna do pobrania w formacie PDF, z opisem funkcji, montażu oraz danych technicznych.
+  </p>
+  <p style="font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+    Instrukcje obejmują pompy głębinowe, hydrofory, falowniki, presostaty, zbiorniki C.W.U., urządzenia solarne i inne. Pliki PDF dostępne są w wielu językach, m.in. <strong>PL, EN, DE, RO, CZ</strong> i <strong>LT</strong>.
+  </p>
+  <p style="font-size: 16px; line-height: 1.6; margin-bottom: 24px;">
+    Skorzystaj z poniższej wyszukiwarki, aby szybko odnaleźć potrzebny dokument.
+  </p>
+  
+  <h3 style="font-size: 22px; margin-top: 30px; margin-bottom: 16px;">Najczęściej zadawane pytania (FAQ)</h3>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Jak korzystać z wyszukiwarki instrukcji?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Wpisz nazwę modelu lub słowo kluczowe, np. „IVR 10”, „PC-13”, „falownik”, „Dreno GRIX”. Wyniki pojawią się automatycznie pod polem wyszukiwania.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Jak rozpoznać markę produktu?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Obok każdej instrukcji wyświetlane jest logo marki: IBO, IBO Italy, IQ PR lub Dreno. Pomaga to szybko zidentyfikować producenta danego urządzenia.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Gdzie znajdę instrukcję obsługi pompy głębinowej IBO?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Przejdź do sekcji „Pompy głębinowe i osprzęt” lub wpisz nazwę modelu w wyszukiwarkę, np. „WQ”, „4 IPRO”, „SDM”.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Jak pobrać instrukcję sterownika PC-13?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Wejdź do kategorii „Sterowanie i zabezpieczenia”, gdzie znajdziesz plik PDF z instrukcją dla PC-13. Możesz też skorzystać z wyszukiwarki.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">W jakim języku są dostępne instrukcje PDF?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Instrukcje dostępne są w językach: <strong>PL, EN, DE, RO, CZ, SK, LT</strong> i <strong>ES</strong>. Dostępność zależy od konkretnego modelu.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Czy dostępna jest instrukcja pompy Dreno?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Tak, instrukcje Dreno (np. GRIX, GR) znajdują się w sekcji poświęconej tej marce. Użyj wyszukiwarki, wpisując nazwę modelu.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Gdzie znajdę dokumentację pomp IBO Italy?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Instrukcje IBO Italy znajdują się w dedykowanej kategorii. Zawierają m.in. urządzenia solarne i włoskie pompy głębinowe. Wpisz nazwę serii w wyszukiwarkę, np. „SOLAR”, „4BLOCK”.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Czy są dostępne instrukcje do hydroforów i zestawów IBO?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Tak. W sekcji „Hydrofory i zestawy” znajdziesz pliki PDF dla pomp AJ, JET, zbiorników przeponowych i gotowych zestawów hydroforowych.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Jak pobrać instrukcję iQ PR lub innych sterowników elektronicznych?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Instrukcje do iQ PR (np. iQ CS, iQ RQE) znajdują się w kategorii „iQ PR – sterowniki i falowniki”. Można je również znaleźć przez wyszukiwarkę.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Jaką funkcję pełni odprężnik presostatu?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Odprężnik obniża ciśnienie w przewodzie tłocznym po wyłączeniu pompy, co ułatwia ponowne uruchomienie silnika i chroni układ przed przeciążeniem.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Czy mogę pobrać instrukcję montażu falownika IBO?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Tak. Dokumentacja falowników IVR oraz innych modeli znajduje się w sekcji „Falowniki i sterowniki”. Wpisz model (np. „IVR 10”) w wyszukiwarce.</p>
+    </div>
+  </details>
+
+  <details style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+    <summary style="cursor: pointer; font-weight: bold; position: relative;">Jak znaleźć instrukcję do serii WZI, DP, AJ?</summary>
+    <div style="padding-top: 8px; color: #444;">
+      <p>Wpisz nazwę serii w wyszukiwarkę lub przejdź do sekcji „Pompy powierzchniowe”. Znajdziesz tam instrukcje dla modeli AJ, WZI, CPM i wielu innych.</p>
+    </div>
+  </details>
+
+  <div style="text-align: center; margin-top: 40px;">
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" style="display: inline-block; padding: 12px 24px; background-color: #f26b00; color: #fff; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+      <span style="font-size: 180%; font-weight: bold;">↑</span>   Powrót na górę   <span style="font-size: 180%; font-weight: bold;">↑</span>
+    </button>
+  </div>
+</section>
