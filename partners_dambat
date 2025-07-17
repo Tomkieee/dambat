@@ -136,7 +136,7 @@
     <input type="text" id="addressInput" placeholder="Wpisz swój adres (np. Warszawa, ul. Zielona 12)" required>
 <div class="captcha-wrapper">
 <div class="captcha-wrapper">
-  <div class="h-captcha" data-sitekey="97f6cdd8-2386-4c9e-bbba-ab54bd60e474"></div>
+  <div class="h-captcha" data-sitekey="XXXXX"></div>
 </div>
     <button type="submit">Szukaj</button>
   
@@ -149,7 +149,7 @@
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
 <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoidG9tYXN6ZmFzIiwiYSI6ImNtYTNqZjZlMjJiemoyanNnMXp2c2owejIifQ.Dy8RKaIlKXFBHCtB4hFP-g';
+mapboxgl.accessToken = 'XXXXX';
 
 let stores = [];
 
