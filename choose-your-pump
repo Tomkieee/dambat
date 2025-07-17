@@ -1,0 +1,319 @@
+<p><img alt="" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Dobor_pompy_do_domu.png?v=1752561180"></p>
+<p>Produkty IBO są punktem odniesienia dla jakości i niezawodności w branży pompowej w Polsce. Firma Dambat oferuje rozległy wybór systemów ciśnieniowych, dzięki czemu jesteśmy w stanie dostarczyć produkt idealnie dostosowany do potrzeb i wymagań klienta.</p>
+<p>Produkty marki IBO możemy dopasować praktycznie do każdego domu i budżetu. Wybór najbardziej odpowiedniego produktu dla danego zastosowania zależy od wielu czynników, m.in.:</p>
+<h2>Jakie będzie zapotrzebowanie na wodę?</h2>
+<p>Wydajność (w l/min lub m³/h) w dużej mierze zależy od liczby kranów lub punktów tłocznych, które mogą być używane w tym samym czasie.</p>
+<h2>Jakie ciśnienie będzie potrzebne?</h2>
+<p>Straty wytwarzane podczas tłoczenia rurociągiem (zarówno na odcinkach pionowych, jak i poziomych), a także przy dostarczeniu wody pod określonym ciśnieniem do wyżej położonych pięter lub w większych układach instalacyjnych, spowodują zwiększone zapotrzebowanie na zdolność wytwarzania ciśnienia przez pompę.</p>
+<p>W praktyce oznacza to, że wymagania dla pomp w domach wielopiętrowych lub w dużych systemach instalacyjnych są wyższe niż w przypadku domów jednopoziomowych oraz małych instalacji.</p>
+<style>
+.grid-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-evenly !important; /* równe odstępy */
+  gap: 20px !important;
+  padding: 20px !important;
+  background: #f9f9f9 !important;
+  font-family: Arial, sans-serif !important;
+  max-width: 1080px !important;
+  margin: 0 auto !important;
+}
+
+.grid-item {
+  width: 300px !important;
+  max-width: 300px !important;
+  flex: 0 0 300px !important;
+  background: #ffffff !important;
+  border: 2px solid #ccc !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+  text-align: center !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  min-height: 480px !important;
+}
+
+/* PODSTAWOWY WRAPPER (domyślna wielkość) */
+.icon-wrapper {
+  width: 80px !important;
+  height: 80px !important;
+  margin: 0 auto 8px auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* IKONA dopasowana proporcjonalnie */
+.icon-img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+/* RÓŻNE ROZMIARY WRAPPERÓW */
+.icon-wrapper-1 { width: 50px !important; height: 50px !important; }
+.icon-wrapper-2 { width: 70px !important; height: 70px !important; }
+.icon-wrapper-3 { width: 90px !important; height: 90px !important; }
+.icon-wrapper-4 { width: 80px !important; height: 80px !important; }
+.icon-wrapper-5 { width: 130px !important; height: 130px !important; }
+
+/* KROPELKI */
+.drops {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 8px 0 !important;
+}
+.drops img {
+  height: 15px !important;
+  margin: 0 2px !important;
+}
+
+/* MODELE */
+.models {
+  font-size: 13px !important;
+  margin-top: 8px !important;
+  color: #111 !important;
+}
+.models a {
+  color: #0066cc !important;
+  text-decoration: none !important;
+}
+.models a:hover {
+  text-decoration: underline !important;
+}
+
+/* NAGŁÓWEK I CIŚNIENIE */
+.grid-item h6 {
+  margin: 10px 0 5px !important;
+  font-size: 18px !important;
+  color: #333 !important;
+  font-weight: 700 !important;
+  background: #f0f0f0 !important;
+  padding: 4px !important;
+  border-radius: 4px !important;
+  display: block !important; /* Shopify czasem nadpisuje inline */
+}
+.grid-item h6 strong {
+  font-weight: 700 !important; /* dla l/min */
+}
+.pressure {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #222 !important;
+  margin-top: 6px !important;
+  display: block !important;
+}
+
+/* RESPONSYWNOŚĆ */
+@media (max-width: 768px) {
+  .grid-container {
+    max-width: 480px !important; /* 2 w rzędzie na tabletach */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    max-width: 100% !important; /* 1 karta w rzędzie na mobile */
+  }
+  .grid-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+    min-height: auto !important;
+  }
+  .grid-item h6 {
+    font-size: 16px !important;
+  }
+  .grid-item p, .models, .pressure {
+    font-size: 13px !important;
+  }
+}
+</style>
+
+<div class="grid-container">
+<div class="grid-item">
+    <div class="icon-wrapper icon-wrapper-1">
+      <img src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/maly_domek.png?v=1752558952" alt="Mały domek" class="icon-img" loading="lazy">
+    </div>
+<div class="drops">
+<img loading="lazy" alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img loading="lazy" alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489">
+</div>
+<h6>50 l/min</h6>
+<p>Małe gospodarstwa domowe i domki letniskowe</p>
+<div class="pressure">Ciśnienie: 3 bar</div>
+<div class="models">
+<a href="https://dambat.pl/pages/search-results-page?q=aj%2050%2F60"><strong>AJ 50/60</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=WZI"><strong>WZI</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=QB"><strong>QB</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=DP"><strong>DP</strong></a>
+</div>
+</div>
+  <div class="grid-item">
+    <div class="icon-wrapper icon-wrapper-2">
+      <img src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/domek.png?v=1752558952" alt="Domek" class="icon-img" loading="lazy">
+    </div>
+<div class="drops">
+<img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489">
+</div>
+<h6>100 l/min</h6>
+<p>Małe i średnie gospodarstwa domowe</p>
+<div class="pressure">Ciśnienie: 3–5 bar</div>
+<div class="models">
+<a href="https://dambat.pl/pages/search-results-page?q=BJ%2045%2F75"><strong>BJ 45/75</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=JET%20100A"><strong>JET 100 A</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=jet%20100%20long"><strong>JET 100 A LONG</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=JSW"><strong>JSW</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=PJ%2060%2F45"><strong>PJ 60/45</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=GARDEN%201000"><strong>GARDEN 1000</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=JSW%20150%20Garden"><strong>JSW 150 Garden</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=MULTI%20130%20INOX"><strong>MULTI 130 INOX</strong></a>, <a href="https://dambat.pl/products/multi-garden-1000-hydrofor-24"><strong>MULTI GARDEN 1000</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=MHI%201300%20INOX"><strong>MHI 1300 INOX</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=MHI%201800%20INOX"><strong>MHI 1800 INOX</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=HP%201500%20INOX"><strong>HP 1500 INOX</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=HP%201300%20INOX"><strong>HP 1300 INOX</strong></a>
+</div>
+</div>
+  <div class="grid-item">
+    <div class="icon-wrapper icon-wrapper-3">
+      <img src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/sredni_domek.png?v=1752558952" alt="Średni domek" class="icon-img" loading="lazy">
+    </div>
+<div class="drops">
+<img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489">
+</div>
+<h6>150 l/min</h6>
+<p>Średniej wielkości domy o większej powierzchni</p>
+<div class="pressure">Ciśnienie: 5 bar</div>
+<div class="models">
+<a href="https://dambat.pl/pages/search-results-page?q=MHI%202500%20INOX"><strong>MHI 2500 INOX</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=HP%201500%20INOX"><strong>HP 1500 INOX</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=E-HP%201300"><strong>E-HP 1300</strong></a>
+</div>
+</div>
+  <div class="grid-item">
+    <div class="icon-wrapper icon-wrapper-4">
+      <img src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/duzy_dom.png?v=1752558952" alt="Duży dom" class="icon-img" loading="lazy">
+    </div>
+<div class="drops">
+<img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489">
+</div>
+<h6>200 l/min</h6>
+<p>Większe domy z min. dwiema łazienkami</p>
+<div class="pressure">Ciśnienie: 5–7 bar</div>
+<div class="models">
+<a href="https://dambat.pl/pages/search-results-page?q=MHI%202200"><strong>MHI 2200</strong></a>, <a href="https://dambat.pl/pages/search-results-page?q=MH%202200%20INOX"><strong>MH 2200 INOX</strong></a>, <a href="https://dambat.pl/products/swim-0-25-pompa-basenowa"><strong>SWIM 025</strong></a>, <a href="https://dambat.pl/products/ja50-pompa-do-hydromasazu"><strong>JA 50</strong></a>, <a href="https://dambat.pl/products/fon-150-pompa-fontannowa"><strong>FON 150</strong></a>, <a href="https://dambat.pl/products/fon-250-pompa-fontannowa"><strong>FON 250</strong></a>
+</div>
+</div>
+  <div class="grid-item">
+    <div class="icon-wrapper icon-wrapper-5">
+      <img src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/dom_z_garazem.png?v=1752558952" alt="Dom z garażem" class="icon-img" loading="lazy">
+    </div>
+<div class="drops">
+<img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489"> <img alt="Kropelka" src="https://cdn.shopify.com/s/files/1/0707/2943/3375/files/kropelka.png?v=1752559489">
+</div>
+<h6>250 l/min</h6>
+<p>Duże domy, systemy ogrodowe, kilka łazienek</p>
+<div class="pressure">Ciśnienie: 7 bar</div>
+<div class="models">
+<a href="https://dambat.pl/products/swim-0-35-pompa-basenowa"><strong>SWIM 035</strong></a>, <a href="https://dambat.pl/products/swim-0-50-pompa-basenowa"><strong>SWIM 050</strong></a>, <a href="https://dambat.pl/products/swim-0-75-pompa-basenowa"><strong>SWIM 075</strong></a>, <a href="https://dambat.pl/products/swim-100-pompa-basenowa"><strong>SWIM 100</strong></a>, <a href="https://dambat.pl/products/fon-400-pompa-fontannowa"><strong>FON 400</strong></a>
+</div>
+</div>
+</div>
+<style>
+  .faq-container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+
+  .faq-question {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+  }
+
+  .faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+  }
+
+  .faq-question.active::after {
+    content: "-";
+  }
+
+  .faq-answer {
+    display: none;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .faq-answer a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .faq-answer a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="faq-container">
+  <div class="faq-item">
+    <div class="faq-question">1. Jak dobrać pompę do domu?</div>
+    <div class="faq-answer">
+      Dobór pompy zależy od zapotrzebowania na wodę, liczby punktów poboru oraz wymaganego ciśnienia. Zalecamy analizę liczby kranów, pięter oraz długości instalacji. W razie wątpliwości skontaktuj się z naszym doradcą.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">2. Czy potrzebuję pompę z hydroforem?</div>
+    <div class="faq-answer">
+      Hydrofor zalecany jest w instalacjach wymagających stabilnego ciśnienia wody oraz w systemach, gdzie pompa powinna uruchamiać się rzadziej (co wydłuża jej żywotność).
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">3. Gdzie znajdę przeliczniki przepływu wolumetrycznego?</div>
+    <div class="faq-answer">
+      Sprawdź nasz kalkulator:
+      <a href="https://dambat.pl/pages/kalkulator-przeplywu-wolumetrycznego" target="_blank"><strong>kalkulator przepływu wolumetrycznego</strong></a>.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">4. Gdzie kupię produkty IBO?</div>
+    <div class="faq-answer">
+      Skontaktuj się z nami przez stronę:
+      <a href="https://dambat.pl/pages/kontakt" target="_blank"><strong>kontakt Dambat</strong></a>.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">5. Gdzie znajdę instrukcje?</div>
+    <div class="faq-answer">
+      Instrukcje znajdziesz na naszej stronie:
+      <a href="https://dambat.pl/pages/instrukcje-do-pobrania" target="_blank"><strong>instrukcje do pobrania</strong></a> lub w nowej wyszukiwarce:
+      <a href="https://dambat.pl/pages/instrukcje-ibo-dambat-iq-pr-ibo-italy-dreno" target="_blank"><strong>wyszukiwarka instrukcji</strong></a>.
+    </div>
+  </div>
+</div>
+
+<script>
+  // funkcja do przypisania eventów
+  function initFAQ() {
+    document.querySelectorAll(".faq-question").forEach(function (q) {
+      if (!q.classList.contains("faq-initialized")) {
+        q.classList.add("faq-initialized");
+        q.addEventListener("click", function () {
+          this.classList.toggle("active");
+          var answer = this.nextElementSibling;
+          answer.style.display = answer.style.display === "block" ? "none" : "block";
+        });
+      }
+    });
+  }
+
+  // uruchomienie po załadowaniu strony
+  document.addEventListener("DOMContentLoaded", initFAQ);
+
+  // dodatkowo wymuszamy działanie na Shopify (przy AJAX-ie)
+  document.addEventListener("shopify:section:load", initFAQ);
+  document.addEventListener("shopify:section:unload", initFAQ);
+</script>
