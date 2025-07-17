@@ -1,0 +1,139 @@
+<div class="kalkulator-kabla">
+  <div class="logo">
+    <a href="https://dambat.pl" target="_blank">
+      <img src="https://dambat.pl/cdn/shop/files/logo_ibo_clean.png" alt="Logo IBO Dambat">
+    </a>
+  </div>
+
+
+  <p class="info">
+    Na potrzeby kalkulacji przyjęto stały spadek napięcia 1,5% dla 230V oraz 2% dla 400V przy trzech fazach i temperaturę pracy przewodu w zakresie od -25°C do +60°C.<br>
+    Popularne przekroje żył to: 1 mm², 1,5 mm², 2,5 mm², 4 mm², 6 mm², 10 mm², 16 mm², 25 mm².
+  </p>
+
+  <label for="length">Długość kabla (m):</label>
+  <input type="number" id="length" step="0.1" required>
+
+  <label for="power">Moc pompy (W):</label>
+  <input type="number" id="power" required>
+
+  <label for="voltage">Napięcie zasilania:</label>
+  <select id="voltage">
+    <option value="230">230 V</option>
+    <option value="400">400 V</option>
+  </select>
+
+  <label for="phase">Rodzaj instalacji:</label>
+  <select id="phase">
+    <option value="1">Jednofazowa</option>
+    <option value="3">Trójfazowa</option>
+  </select>
+
+  <button onclick="calculateCrossSection()">Oblicz przekrój żyły kabla</button>
+
+  <div id="result"></div>
+</div>
+
+<style>
+  .kalkulator-kabla {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    color: #003366;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .kalkulator-kabla h1 {
+    text-align: center;
+    color: #003366;
+  }
+  .kalkulator-kabla .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .kalkulator-kabla .logo img {
+    max-width: 200px;
+    height: auto;
+  }
+  .kalkulator-kabla .info {
+    background-color: #e8f0fe;
+    padding: 10px;
+    border: 1px solid #b3d4fc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #003366;
+  }
+  .kalkulator-kabla label {
+    display: block;
+    margin-top: 15px;
+  }
+  .kalkulator-kabla input,
+  .kalkulator-kabla select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #003366;
+    border-radius: 4px;
+  }
+  .kalkulator-kabla button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  .kalkulator-kabla button:hover {
+    background-color: #002244;
+  }
+  .kalkulator-kabla #result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border: 1px solid #003366;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #003366;
+  }
+</style>
+
+<script>
+  function calculateCrossSection() {
+    const length = parseFloat(document.getElementById('length').value);
+    const power = parseFloat(document.getElementById('power').value);
+    const voltage = parseFloat(document.getElementById('voltage').value);
+    const phase = parseInt(document.getElementById('phase').value);
+
+    const resistivity = 0.0175; // rezystywność miedzi w Ω·mm²/m
+
+    // Ustalanie spadku napięcia w zależności od napięcia i fazy
+    let voltageDropPercent = 1.5; // domyślnie 1,5%
+    if (voltage === 400 && phase === 3) {
+      voltageDropPercent = 2;
+    }
+    const current = power / voltage;
+    const voltageDrop = (voltageDropPercent / 100) * voltage;
+
+    let crossSection;
+    if (phase === 1) {
+      crossSection = (length * 2 * current * resistivity) / voltageDrop;
+    } else {
+      crossSection = (length * Math.sqrt(3) * current * resistivity) / voltageDrop;
+    }
+
+    crossSection = Math.max(0, crossSection); // zapobiegamy ujemnym wynikom
+
+    const standardSections = [1, 1.5, 2.5, 4, 6, 10, 16, 25];
+    const recommendedSection = standardSections.find(size => size >= crossSection) || 'większy niż 25';
+
+    document.getElementById('result').innerText =
+      `Wymagany przekrój żyły kabla: ${crossSection.toFixed(2)} mm²\nZalecany przekrój żyły kabla: ${recommendedSection} mm²`;
+  }
+</script>
