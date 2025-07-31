@@ -6,28 +6,28 @@ export default {
     const instructions = [
   {
     "title": "Pompy powierzchniowe i hydrofory [PL-EN-DE-ES-CZ-RO-LT]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Pompy_powierzchniowe_i_Hydrofory_PL-EN-DE-ES-CZ-RO-LT.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Pompy_powierzchniowe_i_Hydrofory_PL-EN-DE-ES-CZ-RO-LT.pdf",
     "keywords": [
       "hydrofory",
       "pompy",
       "powierzchniowe"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "MCI AUTO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_MCI_AUTO_148x210_PL-EN.pdf?v=1726143783",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_MCI_AUTO_148x210_PL-EN.pdf",
     "keywords": [
       "auto",
       "mci"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Pompa ręczna - Abisynka [PL-CZ]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Abisynka_148x210_PL_CZ.pdf?v=1751613205",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Abisynka_148x210_PL_CZ.pdf",
     "keywords": [
       "pompa ręczna",
       "pompa",
@@ -35,11 +35,11 @@ export default {
       "abisynka"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "CPM [PL-EN-DE-ES-CZ-RO-LT]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Pompy_powierzchniowe_i_Hydrofory_PL-EN-DE-ES-CZ-RO-LT.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Pompy_powierzchniowe_i_Hydrofory_PL-EN-DE-ES-CZ-RO-LT.pdf",
     "keywords": [
       "cpm",
       "pompa cpm",
@@ -47,84 +47,88 @@ export default {
       "pompa przemysłowa"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "MH-X 1300 PRO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/MH-X_1300_PRO_148x210_PL-EN.pdf?v=1726148426",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/MH-X_1300_PRO_148x210_PL-EN.pdf",
     "keywords": [
       "1300",
-      "pro"
+      "pro",
+      "mh-x"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Pompy basenowe SWIM [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_SWIM_148x210_PL-EN.pdf?v=1726144971",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_SWIM_148x210_PL-EN.pdf",
     "keywords": [
       "basenowe",
       "pompy",
       "swim"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Falownik IVR 03 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IVR_3_148x210-PL_EN.pdf?v=1726143426",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IVR_3_148x210-PL_EN.pdf",
     "keywords": [
       "falownik",
-      "ivr"
+      "ivr",
+      "ivr 03"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Falownik IVR 05 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_IVR_05_PL-EN-DE.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Karta_INVERTER_SYSTEM_IVR_05.pdf",
     "keywords": [
       "falownik",
-      "ivr"
+      "ivr",
+      "ivr 05"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Falownik IVR 08 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IVR_08_instrukcja_148x210.pdf?v=1726147416",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IVR_08_instrukcja_148x210.pdf",
     "keywords": [
       "falownik",
-      "ivr"
+      "ivr",
+      "ivr 08"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Falownik IVR 09T [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IVR_09_148x210.pdf?v=1726143254",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IVR_09_148x210.pdf",
     "keywords": [
       "09t",
       "falownik",
       "ivr"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Falownik IVR 10 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IVR_10_PL_EN.pdf?v=1752502355",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IVR_10_PL_EN.pdf",
     "keywords": [
       "falownik",
-      "ivr10",
+      "ivr 10",
       "ivr"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "WZI AUTO, MAGNET AUTO, HP INOX [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/WZI_900_AUTO_MAGNET_750_AUTO_HP_INOX_AUTO.pdf?v=1726210588",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/WZI_900_AUTO_MAGNET_750_AUTO_HP_INOX_AUTO.pdf",
     "keywords": [
       "auto",
       "inox",
@@ -132,33 +136,34 @@ export default {
       "wzi"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "HOME 1 / AUTOIBO 1 / AUTOIBO 2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/HOME_1_AUTOIBO_148x210-PL.pdf?v=1747650106",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/HOME_1_AUTOIBO_148x210-PL.pdf",
     "keywords": [
       "autoibo",
-      "home"
+      "home",
+      "autoibo 2"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "IBO HOME 2 [PL-ENG-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/HOME_2_148x210-PL.pdf?v=1737571682",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/HOME_2_148x210-PL.pdf",
     "keywords": [
       "home",
       "ibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Pompy g\u0142\u0119binowe [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/INSTRUKCJA_GLEBINOWE_IBO_3_5SRH_PL_DE_EN.pdf?v=1726145570",
+    "title": "Pompy głębinowe [PL-EN-DE]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/INSTRUKCJA_GLEBINOWE_IBO_3_5SRH_PL_DE_EN.pdf",
     "keywords": [
-      "g\u0142\u0119binowe",
+      "głębinowe",
       "sting",
       "skm",
       "stm",
@@ -168,7 +173,6 @@ export default {
       "isp",
       "scm",
       "sdm",
-      "isp",
       "ola",
       "fp4",
       "ap6",
@@ -177,41 +181,42 @@ export default {
       "pompy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Sterownik p\u0142ywakowy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_plywak_140x210.pdf?v=1726144082",
+    "title": "Sterownik pływakowy [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_plywak_140x210.pdf",
     "keywords": [
-      "p\u0142ywakowy",
+      "pływakowy",
       "sterownik"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sonda hydrostatyczna SDS-10 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SDS-10_instrukcja_sonda_hydrostatyczna.pdf?v=1726209783",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SDS-10_instrukcja_sonda_hydrostatyczna.pdf",
     "keywords": [
       "hydrostatyczna",
       "sds",
       "sonda"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "WQ, WQF [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf?v=1737571682",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf",
     "keywords": [
-      "wqf"
+      "wqf",
+      "wq"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "WQ Professional, SWQ, WQD, FURIA1300 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf?v=1737571682",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf",
     "keywords": [
       "furia1300",
       "professional",
@@ -219,11 +224,11 @@ export default {
       "wqd"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "WQ Professional, SWQ, WQD, FURIA1300 [EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf?v=1737571682",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf",
     "keywords": [
       "furia1300",
       "professional",
@@ -231,20 +236,20 @@ export default {
       "wqd"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "KBFU [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf?v=1737571682",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf",
     "keywords": [
       "kbfu"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "WQ, WQ PRO, WQF, SN, Furiatka, Furia, KRAKEN, BIG, IP, IP INOX, MULTI IP, MULTI IP AUTO, IPC, IPE, IPK, SWQ, SWQ PRO, CTR, ZWQ, MAGNUM, V, MWQ, KBFU, TUR, WQX, WQV, VOX, VX [PL-EN-DE-ES-CZ-RO-LT-SK]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf?v=1737571682",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf",
     "keywords": [
       "auto",
       "big",
@@ -271,31 +276,32 @@ export default {
       "zwq"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "NEMO/VM 60 [PL-DE-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_NEMO-VM60_PL-DE-EN.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_NEMO-VM60_PL-DE-EN.pdf",
     "keywords": [
-      "nemo"
+      "nemo",
+      "vm 60"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "SWQ IVR 2200 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__SWQ_IVR_2200_148x210_PL_EN_DE.pdf?v=1747980146",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__SWQ_IVR_2200_148x210_PL_EN_DE.pdf",
     "keywords": [
       "2200",
       "ivr",
       "swq"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Rainer 1200, Rainer 1200 Auto Storm, Rainer 1200 Inox, Rainer 1000 Inox [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Rainer_1200.pdf?v=1750839119",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Rainer_1200.pdf",
     "keywords": [
       "auto storm",
       "1200 inox",
@@ -313,71 +319,71 @@ export default {
       "rainer"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "HARPIA 1100 [EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_HARPIA_1100_EN.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_HARPIA_1100_EN.pdf",
     "keywords": [
       "1100",
       "harpia"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "LIRA 1300 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_LIRA_PL-EN.pdf?v=1696935442",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_LIRA_PL-EN.pdf",
     "keywords": [
       "1300",
       "lira"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "BOLO 2400 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_BOLO_2300_PL-EN.pdf?v=1696935444",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_BOLO_2300_PL-EN.pdf",
     "keywords": [
       "2400",
       "bolo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "IBX [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_IBX_PL-EN.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_IBX_PL-EN.pdf",
     "keywords": [
       "ibx"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "KBFU 50-0,55M i 50-0,80M [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_KBFU_0_55-0_80_PL-EN.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_KBFU_0_55-0_80_PL-EN.pdf",
     "keywords": [
       "55m",
       "80m",
       "kbfu"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "KBFU AUTO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_KBFU_AUTO_PL-EN.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_KBFU_AUTO_PL-EN.pdf",
     "keywords": [
       "auto",
       "kbfu"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "DIVE 1200/1300 AUTO DIVE 1200/1300 INOX [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf?v=1737571682",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja__Zatapialne.pdf",
     "keywords": [
       "1200",
       "1300",
@@ -386,68 +392,68 @@ export default {
       "inox"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "SANIBO MINI [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SANIBO_MINI__PL-EN.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SANIBO_MINI__PL-EN.pdf",
     "keywords": [
       "mini",
       "sanibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "SANIBO 1 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SANIBO_1__PL-EN.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SANIBO_1__PL-EN.pdf",
     "keywords": [
       "sanibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "SANIBO 4 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANIBO4__instrukcja.pdf?v=1726209345",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANIBO4__instrukcja.pdf",
     "keywords": [
       "sanibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "SANIBO 5 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SANIBO_5_PL-EN.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SANIBO_5_PL-EN.pdf",
     "keywords": [
       "sanibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "SANBOX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANBOX_SANBOX_Z_148x210-PL.pdf?v=1726209142",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANBOX_SANBOX_Z_148x210-PL.pdf",
     "keywords": [
       "sanbox"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Inteligetny kontroler SANBOX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANBOX_750_Z_750_2x750_2xZ_750_HB_750_HB_1100_-_kontroler.pdf?v=1726209142",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANBOX_750_Z_750_2x750_2xZ_750_HB_750_HB_1100_-_kontroler.pdf",
     "keywords": [
       "inteligetny",
       "kontroler",
       "sanbox"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Inteligetny kontroler SANBOX 1500 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANBOX_1500_1500_2x1500_Z_1500_2xZ_1500_-_kontroler.pdf?v=1726209142",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/SANBOX_1500_1500_2x1500_Z_1500_2xZ_1500_-_kontroler.pdf",
     "keywords": [
       "1500",
       "inteligetny",
@@ -455,31 +461,31 @@ export default {
       "sanbox"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "AQUASAN MINI",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Aquasan_mini_148x210_PL-EN.pdf?v=1726139846",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Aquasan_mini_148x210_PL-EN.pdf",
     "keywords": [
       "aquasan",
       "mini"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik LCI-2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/LCI2_instrukcja.pdf?v=1726147606",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/LCI2_instrukcja.pdf",
     "keywords": [
       "lci",
       "sterownik"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "M121 - Sterownik do jednej pompy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_121_instrukcja_148x210-PL.pdf?v=1726147775",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_121_instrukcja_148x210-PL.pdf",
     "keywords": [
       "m121",
       "sterownik m121",
@@ -490,11 +496,11 @@ export default {
       "sterownik do jednej pompy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "M131 - Sterownik do jednej pompy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_131_instrukcja_148x210-PL.pdf?v=1726147791",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_131_instrukcja_148x210-PL.pdf",
     "keywords": [
       "m131",
       "sterownik m131",
@@ -505,182 +511,252 @@ export default {
       "sterownik do jednej pompy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC2_manometr_instrukcja.pdf?v=1726207656",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC2_manometr_instrukcja.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-2"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-9 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC9_instrukcja.pdf?v=1726207773",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC9_instrukcja.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-9"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-10P / 20P [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-10_PC-20_148x210_PL-EN-DE.pdf?v=1726207943",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-10_PC-20_148x210_PL-EN-DE.pdf",
     "keywords": [
       "10p",
       "20p",
-      "sterownik"
+      "sterownik",
+      "pc-10",
+      "pc-20"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-13 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_PC-13_PL-EN-DE.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_PC-13_PL-EN-DE.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-13"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-15 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-15_148x210-PL-EN.pdf?v=1726208213",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-15_148x210-PL-EN.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-15"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-16 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-16_148x210-PL.pdf?v=1726208228",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-16_148x210-PL.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-16"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
+  },
+  {
+    "title": "Sterownik PC-24 [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-24_instrukcja_148x210_PL.pdf",
+    "keywords": [
+      "sterownik",
+      "pc-24"
+    ],
+    "brand": "IBO",
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
+  },
+  {
+    "title": "Sterownik PC-34 [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-34_instrukcja_148x210_PL.pdf",
+    "keywords": [
+      "sterownik",
+      "pc-34"
+    ],
+    "brand": "IBO",
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-59 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_PC-59_PL-EN-DE.pdf?v=1696935440",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_PC-59_148x210-PL-EN-DE.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-59"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-60 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-60_148x210-PL-EN-DE.pdf?v=1726208572",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-60_148x210-PL-EN-DE.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-60"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
+  },
+  {
+    "title": "Sterownik PC-69 [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcje_PC-69_148x210-PL-EN-DE.pdf",
+    "keywords": [
+      "sterownik",
+      "pc-69"
+    ],
+    "brand": "IBO",
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-79 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_PC-79_PL-EN-DE.pdf?v=1696935442",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_PC-79_PL-EN-DE.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-79"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik PC-SK [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC_SK2_instrukcja.pdf?v=1726207582",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC_SK2_instrukcja.pdf",
     "keywords": [
-      "sterownik"
+      "sterownik",
+      "pc-sk"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterownik S-150 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/S-150_148x210-PL.pdf?v=1726208869",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/S-150_148x210-PL.pdf",
     "keywords": [
       "150",
-      "sterownik"
+      "sterownik",
+      "s-150"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Automat hydroforowy SK-15 [PL-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SK-15_PL-DE.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_SK-15_PL-DE.pdf",
     "keywords": [
       "automat",
-      "hydroforowy"
+      "hydroforowy",
+      "sk-15"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Wy\u0142\u0105cznik IBOPRESS SX - 1/4 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOPRES_SX_instrukcja_148x210_PL-EN-DE.pdf?v=1726145106",
+    "title": "Wyłącznik IBOPRESS SX - 1/4 [PL-EN-DE]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOPRES_SX_instrukcja_148x210_PL-EN-DE.pdf",
     "keywords": [
       "ibopress",
-      "wy\u0142\u0105cznik"
+      "wyłącznik",
+      "sx"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Wy\u0142\u0105cznik IBOPRESS 10 [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOPRESS_10_1-4_PL-EN-DE.pdf?v=1726145327",
+    "title": "Wyłącznik IBOPRESS 10 [PL-EN-DE]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOPRESS_10_1-4_PL-EN-DE.pdf",
     "keywords": [
       "ibopress",
-      "wy\u0142\u0105cznik"
+      "wyłącznik"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Wy\u0142\u0105cznik IBOPRESS 30 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOPRESS_30_instrukcja_148x210.pdf?v=1726145360",
+    "title": "Wyłącznik IBOPRESS 30 [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOPRESS_30_instrukcja_148x210.pdf",
     "keywords": [
       "ibopress",
-      "wy\u0142\u0105cznik"
+      "wyłącznik"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
+  },
+  {
+    "title": "Wyłącznik pływakowy FLOWARM [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_FLOWARM.pdf",
+    "keywords": [
+      "flowarm",
+      "wyłącznik",
+      "pływakowy",
+      "wyłącznik pływakowy"
+    ],
+    "brand": "IBO",
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "OHI, OHI MAX [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_OHI-OHI_MAX_PL-EN.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_OHI-OHI_MAX_PL-EN.pdf",
     "keywords": [
       "max",
       "ohi"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
+  },
+  {
+    "title": "OHI PLUS+ [PL-EN-DE-CZ]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_OHI_PLUS-_PL-EN-DE-CZ.pdf",
+    "keywords": [
+      "plus",
+      "ohi",
+      "ohiplus",
+      "ohi plus",
+      "ohi+"
+    ],
+    "brand": "IBO",
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "BETA 2 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_BETA_2_PL-EN.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_BETA_2_PL-EN.pdf",
     "keywords": [
-      "beta"
+      "beta",
+      "beta2"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "AMG SOLAR [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_AMG_SOLAR_148x210_PL-EN.pdf?v=1739365410",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_AMG_SOLAR_148x210_PL-EN.pdf",
     "keywords": [
       "amg",
       "solar"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
     {
     "title": "Grupa pompowa GP PRO",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Grupy_Pompowe_GP_PRO_instrukcja_PL.pdf?v=1748439244",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Grupy_Pompowe_GP_PRO_instrukcja_PL.pdf",
     "keywords": [
       "gp pro",
       "grupa pompowa",
@@ -688,264 +764,275 @@ export default {
 	    "grupa pompowa gp pro"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "E-IBO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_E-IBO_PL_EN.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_E-IBO_PL_EN.pdf",
     "keywords": [
-      "ibo"
+      "ibo",
+      "e-ibo",
+      "eibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "E-IBO PRO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/E_IBO_PRO_PL_EN.pdf?v=1726141014",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/E_IBO_PRO_PL_EN.pdf",
     "keywords": [
       "ibo",
-      "pro"
+      "pro",
+      "eibo",
+      "e-ibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "CPI 15-15 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_CPI_PL.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_CPI_PL.pdf",
     "keywords": [
-      "cpi"
+      "cpi",
+      "15-15"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "IVO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_IVO_PL-EN.pdf?v=1696935444",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_IVO_PL-EN.pdf",
     "keywords": [
       "ivo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "MAGI 2 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MAGI_2_PL-EN.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MAGI_2_PL-EN.pdf",
     "keywords": [
-      "magi"
+      "magi",
+      "magi2"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "MAGI 2-80 [PL, EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MAGI_2_PL-EN.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MAGI_2_PL-EN.pdf",
     "keywords": [
       "magi"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "MAGI MAX [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MAGI_MAX_PL-EN.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MAGI_MAX_PL-EN.pdf",
     "keywords": [
       "magi",
-      "max"
+      "max",
+      "magi max"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "NOVA [PL, DE, EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_NOVA_PL-EN-DE.pdf?v=1696935441",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_NOVA_PL-EN-DE.pdf",
     "keywords": [
       "nova"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "NOVA MAX [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_NOVA_MAX_PL-EN.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_NOVA_MAX_PL-EN.pdf",
     "keywords": [
       "max",
       "nova"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "PANDA [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PANDA_manual.pdf?v=1739951126",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PANDA_manual.pdf",
     "keywords": [
       "panda"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "CONAQUA [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_CONAQUA_PL.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_CONAQUA_PL.pdf",
     "keywords": [
       "conaqua"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "CONIBO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_CONIBO_PL-EN.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_CONIBO_PL-EN.pdf",
     "keywords": [
       "conibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Zaw\u00f3r antyzamro\u017ceniowy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Zawor_antyzamrozeniowy_PL.pdf?v=1696935438",
+    "title": "Zawór antyzamrożeniowy [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Zawor_antyzamrozeniowy_PL.pdf",
     "keywords": [
-      "antyzamro\u017ceniowy",
-      "zaw\u00f3r"
+      "antyzamrożeniowy",
+      "zawór"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Elektrozaw\u00f3r kulowy VT 12/24V [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Elektrozawor_VT_12_24V.pdf?v=1733354709",
+    "title": "Elektrozawór kulowy VT 12/24V [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Elektrozawor_VT_12_24V.pdf",
     "keywords": [
       "24v",
-      "elektrozaw\u00f3r",
+      "elektrozawór",
       "kulowy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Elektrozaw\u00f3r kulowy VT 230V [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Elektrozawor_VT_230V_instrukcja.pdf?v=1749117259",
+    "title": "Elektrozawór kulowy VT 230V [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Elektrozawor_VT_230V_instrukcja.pdf",
     "keywords": [
       "230v",
-      "elektrozaw\u00f3r",
-      "kulowy"
+      "elektrozawór",
+      "kulowy",
+      "vt230"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Si\u0142ownik STER D",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_STER_D_PL.pdf?v=1696935438",
+    "title": "Siłownik STER D",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_STER_D_PL.pdf",
     "keywords": [
-      "si\u0142ownik",
+      "siłownik",
       "ster"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Zaw\u00f3r strefowy MIX 1 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_MIX_1.pdf?v=1747031268",
+    "title": "Zawór strefowy MIX 1 [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_MIX_1.pdf",
     "keywords": [
       "mix",
       "strefowy",
-      "zaw\u00f3r"
+      "zawór"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Zaw\u00f3r strefowy MIX2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_IBO_MIX2.pdf?v=1749117234",
+    "title": "Zawór strefowy MIX2 [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_IBO_MIX2.pdf",
     "keywords": [
       "mix2",
       "strefowy",
-      "zaw\u00f3r"
+      "zawór"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Zaw\u00f3r 3 i 4 drogowych MIX3 i MIX4 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MIX3_i_IBO_MIX4_PL.pdf?v=1696935439",
+    "title": "Zawór 3 i 4 drogowych MIX3 i MIX4 [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_MIX3_i_IBO_MIX4_PL.pdf",
     "keywords": [
       "drogowych",
       "mix3",
       "mix4",
-      "zaw\u00f3r"
+      "zawór"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Inteligetny zaw\u00f3r Wi-Fi [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Inteligentny_zawor_WI-FI_148x210_PL.pdf?v=1747818839",
+    "title": "Inteligetny zawór Wi-Fi [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Inteligentny_zawor_WI-FI_148x210_PL.pdf",
     "keywords": [
       "inteligetny",
-      "zaw\u00f3r"
+      "zawór",
+      "wifi",
+      "wi-fi"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Zaw\u00f3r MIX TVR [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_zawor_IBO_MIX_TVR.pdf?v=1749117003",
+    "title": "Zawór MIX TVR [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_zawor_IBO_MIX_TVR.pdf",
     "keywords": [
       "tvr",
-      "zaw\u00f3r",
+      "zawór",
       "mix tvr",
       "ibo mix tvr"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Zaw\u00f3r mieszający MIX T [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_zawor_MIX_T.pdf?v=1749117002",
+    "title": "Zawór mieszający MIX T [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_zawor_MIX_T.pdf",
     "keywords": [
-      "zaw\u00f3r mix t",
-      "zaw\u00f3r",
+      "zawór mix t",
+      "zawór",
       "mix t",
       "ibo mix t"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Zaw\u00f3r serwisowy ZS 25-20[PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_zawor_serwisowy.pdf?v=1749117003",
+    "title": "Zawór serwisowy ZS 25-20[PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_zawor_serwisowy.pdf",
     "keywords": [
-      "zaw\u00f3r serwisowy",
-      "zaw\u00f3r",
+      "zawór serwisowy",
+      "zawór",
       "zs 25-20",
-      "zaw\u00f3r serwisowy zs"
+      "zawór serwisowy zs"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Stacja nape\u0142niaj\u0105co-p\u0142ucz\u0105ca [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Stacja_napelniajaco_pluczaca.pdf?v=1696935439",
+    "title": "Stacja napełniająco-płucząca [PL]",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Stacja_napelniajaco_pluczaca.pdf",
     "keywords": [
-      "nape\u0142niaj\u0105co",
-      "p\u0142ucz\u0105ca",
+      "napełniająco",
+      "napełniająca",
+      "płucząca",
       "stacja"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "IPML [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_IPML_PL.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_IPML_PL.pdf",
     "keywords": [
       "ipml"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 01 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IBF_01_148x210.pdf?v=1726143113",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IBF_01_148x210.pdf",
     "keywords": [
       "ibf",
       "ibf01",
@@ -954,11 +1041,11 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 04 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF04_PL.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF04_PL.pdf",
     "keywords": [
       "ibf",
       "ibf04",
@@ -967,24 +1054,24 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 05 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF05_PL.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF05_PL.pdf",
     "keywords": [
       "ibf",
       "ibf05",
       "ibf-05",
-      "ibf 05",,
+      "ibf 05",
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 06 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF06_PL.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF06_PL.pdf",
     "keywords": [
       "ibf",
       "ibf06",
@@ -993,11 +1080,11 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 07 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF07_PL.pdf?v=1696935442",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF07_PL.pdf",
     "keywords": [
       "ibf",
       "ibf07",
@@ -1006,11 +1093,11 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 08 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF08_PL.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF08_PL.pdf",
     "keywords": [
       "ibf",
       "ibf08",
@@ -1019,11 +1106,11 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 09 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_IBF09_148x210.pdf?v=1752658083",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_IBF09_148x210.pdf",
     "keywords": [
       "ibf",
       "separator",
@@ -1031,11 +1118,11 @@ export default {
       "ibf-09"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 10 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF_10_PL.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Separator_IBF_10_PL.pdf",
     "keywords": [
       "ibf",
       "ibf10",
@@ -1044,11 +1131,11 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF 12 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBF-12.pdf?v=1726141604",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBF-12.pdf",
     "keywords": [
       "ibf",
       "ibf12",
@@ -1057,11 +1144,11 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF-V [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_V_148x210.pdf?v=1726144650",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_V_148x210.pdf",
     "keywords": [
       "ibf",
       "ibfv",
@@ -1070,11 +1157,11 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator IBF-V2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_V2_148x210.pdf?v=1726144665",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_V2_148x210.pdf",
     "keywords": [
       "ibf",
       "ibfv2",
@@ -1083,82 +1170,82 @@ export default {
       "separator"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Separator YBF [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_YBF_148x210_PL.pdf?v=1752659816",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_Separator_YBF_148x210_PL.pdf",
     "keywords": [
       "separator",
       "ybf"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Filtry magnetyczne [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Filtry_magnetyczne_PL-EN.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Filtry_magnetyczne_PL-EN.pdf",
     "keywords": [
       "filtry",
       "magnetyczne"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "FLUSH 20L [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_FLUSH_20L_PL.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_FLUSH_20L_PL.pdf",
     "keywords": [
       "20l",
       "flush"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "FLUSH 20L PRO [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_FLUSH_20L_PRO_PL.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_FLUSH_20L_PRO_PL.pdf",
     "keywords": [
       "20l",
       "flush",
       "pro"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "FLUSH 40L [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_FLUSH_40L_PL.pdf?v=1696935447",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_FLUSH_40L_PL.pdf",
     "keywords": [
       "40l",
       "flush"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "IBOMAT API 25/45-50-55 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOMAT_API_instrukcja_A5_PL.pdf?v=1734385262",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBOMAT_API_instrukcja_A5_PL.pdf",
     "keywords": [
       "api",
       "ibomat"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Zbiornik przeponowy [PL-EN-CZ]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Zbiorniki_przeponowe_PL-EN-CZ_2023.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_Zbiorniki_przeponowe_PL-EN-CZ_2023.pdf",
     "keywords": [
       "przeponowy",
       "zbiornik"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Zbiorniki C.W.U./CWU - ciep\u0142a woda u\u017cytkowa [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_zbiorniki_CWU_PL-EN.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_zbiorniki_CWU_PL-EN.pdf",
     "keywords": [
       "ciep\u0142a",
       "cwu",
@@ -1167,53 +1254,53 @@ export default {
       "zbiorniki"
     ],
     "brand": "IBO ITALY",
-    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png?v=1677505950"
+    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png"
   },
   {
     "title": "Zbiorniki SOLAR [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_SOLAR_PL-EN.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_SOLAR_PL-EN.pdf",
     "keywords": [
       "solar",
       "zbiorniki"
     ],
     "brand": "IBO ITALY",
-    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png?v=1677505950"
+    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png"
   },
   {
     "title": "Zbiornik HEATS [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_zbiorniki_HEATS_PL-EN.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_zbiorniki_HEATS_PL-EN.pdf",
     "keywords": [
       "heats",
       "zbiornik"
     ],
     "brand": "IBO ITALY",
-    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png?v=1677505950"
+    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png"
   },
   {
     "title": "Zbiorniki przeponowe &lt; 300 L [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_od_from_500L_PL-EN.pdf?v=1696935442",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_od_from_500L_PL-EN.pdf",
     "keywords": [
       "300",
       "przeponowe",
       "zbiorniki"
     ],
     "brand": "IBO ITALY",
-    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png?v=1677505950"
+    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png"
   },
   {
     "title": "Zbiorniki przeponowe &gt; 500 L  [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_od_from_500L_PL-EN.pdf?v=1696935442",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IBO_ITALY_od_from_500L_PL-EN.pdf",
     "keywords": [
       "500",
       "przeponowe",
       "zbiorniki"
     ],
     "brand": "IBO ITALY",
-    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png?v=1677505950"
+    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png"
   },
     {
     "title": "Pompy głębinowe",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_g_binowe_IBO_ITALY_PL-EN-DE-CZ-RO.pdf?v=1748439615",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/INSTRUKCJA_GLEBINOWE_IBO_PL_DE_EN.pdf",
     "keywords": [
       "pompy",
       "głębinowe",
@@ -1228,7 +1315,6 @@ export default {
       "isp",
       "scm",
       "sdm",
-      "isp",
       "ola",
       "fp4",
       "ap6",
@@ -1237,89 +1323,80 @@ export default {
 	    "pompy ibo italy"
     ],
     "brand": "IBO ITALY",
-    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png?v=1677505950"
+    "logo": "https://dambat.pl/cdn/shop/files/IBO_ITALY_logo_facb7e39-b03f-46ee-b430-c9248e30b501.png"
   },
   {
     "title": "PR AUTO [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PR_instrukcja_148x210_PL.pdf?v=1726208730",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PR_instrukcja_148x210_PL.pdf",
     "keywords": [
       "auto"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
-  },
-  {
-    "title": "Stacja nape\u0142niaj\u0105co-p\u0142ucz\u0105ca [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Stacja_napelniajaco_pluczaca_148x210.pdf?v=1726210087",
-    "keywords": [
-      "nape\u0142niaj\u0105co",
-      "p\u0142ucz\u0105ca",
-      "stacja"
-    ],
-    "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "PRO i PRN [PL, EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Stacja_napelniajaco_pluczaca_148x210.pdf?v=1726210087",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Karta_POMPY_TRAKTOROWE_PRO_PRN.pdf",
     "keywords": [
       "prn",
       "pro"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "BZP i H-BZP",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/BZP_PL-EN-DE_Instrukcja.pdf?v=1726140143",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/BZP_PL-EN-DE_Instrukcja.pdf",
     "keywords": [
-      "bzp"
+      "bzp",
+      "motopompa"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "AOP i KMQ [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/AOP_instrukcja_148x210-PL.pdf?v=1726139451",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/AOP_instrukcja_148x210-PL.pdf",
     "keywords": [
       "aop",
       "kmq"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "AOP",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/AOP_instrukcja_148x210-PL.pdf?v=1726139451",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/AOP_instrukcja_148x210-PL.pdf",
     "keywords": [
       "aop"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "OP 12V",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/OP_40_pompa_do_oleju_instrukcja.pdf?v=1726148951",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/OP_40_pompa_do_oleju_instrukcja.pdf",
     "keywords": [
-      "12v"
+      "12v",
+      "op12"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Deszczownica IBO 75/400",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Deszczownia_IBO_75_400__148x210.pdf?v=1726140812",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Deszczownia_IBO_75_400__148x210.pdf",
     "keywords": [
       "400",
       "deszczownica",
       "ibo"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Centrala deszczowa IBO RAIN SYSTEM",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_RAIN_SYSTEM_instrukcja_148x210-PL.pdf?v=1726142252",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_RAIN_SYSTEM_instrukcja_148x210-PL.pdf",
     "keywords": [
       "centrala",
       "deszczowa",
@@ -1328,52 +1405,52 @@ export default {
       "system"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Filtr do wody",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_FILTRY_DO_WODY_Z_WKLADEM_nowa.pdf?v=1742478478",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_FILTRY_DO_WODY_Z_WKLADEM_nowa.pdf",
     "keywords": [
       "filtr",
       "wody"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
-    "title": "Wk\u0142ad do filtr\u00f3w",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_FILTRY_DO_WODY_Z_WKLADEM_nowa.pdf?v=1742478478",
+    "title": "Wkład do filtrów",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_FILTRY_DO_WODY_Z_WKLADEM_nowa.pdf",
     "keywords": [
-      "filtr\u00f3w",
-      "wk\u0142ad"
+      "filtrów",
+      "wkład"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sterylizator do wody UV",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Sterylizator_uv_instrukcja_PL.pdf?v=1726210348",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Sterylizator_uv_instrukcja_PL.pdf",
     "keywords": [
       "sterylizator",
       "wody"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Rozdzielacz IBO GP PRO",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_Instrukcja_Rozdzielacze_IBO_GP_PRO.pdf?v=1747913887",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_Instrukcja_Rozdzielacze_IBO_GP_PRO.pdf",
     "keywords": [
       "ibo",
       "pro",
       "rozdzielacz"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Sprzęgło pionowe SP-S GZ/GWs",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Sprzeglo_pionowe_SP-S_instrukcja_148x210_PL_-pop.pdf?v=1749117003",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Sprzeglo_pionowe_SP-S_instrukcja_148x210_PL_-pop.pdf",
     "keywords": [
       "sprzęgło pionowe",
       "sp-s",
@@ -1382,11 +1459,11 @@ export default {
       "sprzęgło"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "IC 400 pompa zatapialna z pływakiem",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IC_400_148x210-PL.pdf?v=1749647424",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_IC_400_148x210-PL.pdf",
     "keywords": [
       "ic 400",
       "pompa",
@@ -1394,11 +1471,11 @@ export default {
       "pompa zatapialna z pływakiem"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "HWI 1300 AUTO samozasysająca pompa powierzchniowa",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_HWI_1300_Auto_148x210_PL.pdf?v=1749647407",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IBO_instrukcja_HWI_1300_Auto_148x210_PL.pdf",
     "keywords": [
       "hwi",
       "hwi 1300",
@@ -1407,11 +1484,11 @@ export default {
       "samozasysająca pompa"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "IQ PRESS elektroniczny wyłącznik ciśnieniowy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PRESS_instrukcja_148x210_PL.pdf?v=1750769344",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PRESS_instrukcja_148x210_PL.pdf",
     "keywords": [
       "iq",
       "iq press",
@@ -1420,11 +1497,11 @@ export default {
       "wyłącznik ciśnieniowy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "PC-30 P elektroniczny wyłącznik ciśnieniowy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-30P_instrukcja_148x210_PL.pdf?v=1750846552",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/PC-30P_instrukcja_148x210_PL.pdf",
     "keywords": [
       "pc",
       "pc30",
@@ -1437,11 +1514,11 @@ export default {
       "wyłącznik ciśnieniowy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   }, 
   {
     "title": "Falownik-inwerter IVR 02M [PL-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_IVR-02_PL-DE.pdf?v=1751272846",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_IVR-02_PL-DE.pdf",
     "keywords": [
       "falownik",
       "inwerter",
@@ -1454,11 +1531,11 @@ export default {
       "02m"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "VIRAL AUTO 750 pompa z falownikiem [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_VIRAL_AUTO_750_148x210-PL.pdf?v=1751353127",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_VIRAL_AUTO_750_148x210-PL.pdf",
     "keywords": [
       "viral",
       "viral auto",
@@ -1469,11 +1546,11 @@ export default {
       "pompa z inwerterem"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "M21 Sterownik do jednej pompy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_21_instrukcja_148x210-PL.pdf?v=1751362655",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_21_instrukcja_148x210-PL.pdf",
     "keywords": [
       "m21",
       "sterownik m21",
@@ -1484,11 +1561,11 @@ export default {
       "sterownik do jednej pompy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
       {
     "title": "M31 Sterownik do jednej pompy [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_31_instrukcja_148x210-PL.pdf?v=1751362655",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/M_31_instrukcja_148x210-PL.pdf",
     "keywords": [
       "m31",
       "sterownik m31",
@@ -1499,33 +1576,33 @@ export default {
       "sterownik do jednej pompy"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "JET PRO [PL-EN-CZ-RO-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_JET_PRO_PL-EN-CZ-RO-DE.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_JET_PRO_PL-EN-CZ-RO-DE.pdf",
     "keywords": [
       "jet",
       "pro",
       "jet pro"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "MCI PRO [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/iq_PR_-_MCI.pdf?v=1748869977",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/iq_PR_-_MCI.pdf",
     "keywords": [
       "mci",
       "pro",
       "ipro mci"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "CV, CVF, CVL i CVI [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_CV_PL_IQ_PR_2025_www.pdf?v=1748250412",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_CV_PL_IQ_PR_2025_www.pdf",
     "keywords": [
       "cv",
       "cvf",
@@ -1533,33 +1610,33 @@ export default {
       "cvi"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Pompa CS [PL-ENG]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/iQ_PR_instrukcja_CS_148x210_PL_EN.pdf?v=1747643876",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/iQ_PR_instrukcja_CS_148x210_PL_EN.pdf",
     "keywords": [
       "cs",
       "pompa cs",
       "pompa"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "RQE [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_RQE_PL_EN.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_RQE_PL_EN.pdf",
     "keywords": [
       "rqe",
       "pompa rqe",
       "pompa"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "QBS 150 [PL-EN-DE-ES-CZ-RO-LT-SK]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_QBS_150_PL-EN-DE-ES-CZ-RO-LT-SL.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_QBS_150_PL-EN-DE-ES-CZ-RO-LT-SL.pdf",
     "keywords": [
       "qbs",
       "pompa qbs",
@@ -1568,66 +1645,66 @@ export default {
       "qbs 150"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "QBO [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IPRO_instrukcja_QBO_148x210_PL-EN.pdf?v=1726211980",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IPRO_instrukcja_QBO_148x210_PL-EN.pdf",
     "keywords": [
       "qbo",
       "pompa qbo",
       "pompa"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "WE [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_WE_PL-EN.pdf?v=1696935448",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_WE_PL-EN.pdf",
     "keywords": [
       "we",
       "pompa we",
       "pompa"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "ZWE [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_ZWE_PL-EN.pdf?v=1696935447",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_ZWE_PL-EN.pdf",
     "keywords": [
       "zwe",
       "pompa zwe",
       "pompa"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "HARPIA [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IPRO_instrukcja_HARPIA_1100_PL_EN.pdf?v=1748854476",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IPRO_instrukcja_HARPIA_1100_PL_EN.pdf",
     "keywords": [
       "harpia",
       "pompa harpia",
       "pompa"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Inwerter Smart Flow [PL-EN-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_SMART_FLOW_PL-EN-DE.pdf?v=1696935439",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_SMART_FLOW_PL-EN-DE.pdf",
     "keywords": [
       "smart",
       "smart flow",
       "flow"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Inwerter IVR-11 [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IVR-11_PL-EN.pdf?v=1751888453",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_IVR-11_PL-EN.pdf",
     "keywords": [
       "ivr",
       "ivr11",
@@ -1635,11 +1712,11 @@ export default {
       "inwerter"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Inwerter IVR 400T [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IPRO_IVR_400T_instrukcja_148x210_PL.pdf?v=1726147029",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IPRO_IVR_400T_instrukcja_148x210_PL.pdf",
     "keywords": [
       "ivr",
       "ivr 400t",
@@ -1648,23 +1725,11 @@ export default {
       "ivr400"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
-  "title": "Inwerter 11 [PL-EN]",
-  "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IPRO_IVR_400T_instrukcja_148x210_PL.pdf?v=1726147029",
-  "keywords": [
-    "ivr",
-    "ivr 11",
-    "ivr-11",
-    "ivr11"
-  ],
-  "brand": "iQ PR",
-  "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
-},  
-  {
     "title": "Pompy głębinowe SPINOX",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Pompy_glebinowe_iQ_PR_-_instrukcja.pdf?v=1746618421",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Pompy_glebinowe_iQ_PR_-_instrukcja.pdf",
     "keywords": [
       "pompy głębinowe",
       "spinox",
@@ -1672,11 +1737,11 @@ export default {
       "pompy spinox"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Pompy głębinowe iQ PR",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Pompy_glebinowe_iQ_PR_-_instrukcja.pdf?v=1746618421",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Pompy_glebinowe_iQ_PR_-_instrukcja.pdf",
     "keywords": [
       "pompy głębinowe",
       "pompa iq pr",
@@ -1687,11 +1752,11 @@ export default {
       "pompa ipro"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Pompy SUB-R z pływakiem",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Pompy_glebinowe_iQ_PR_-_instrukcja.pdf?v=1746618421",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Pompy_glebinowe_iQ_PR_-_instrukcja.pdf",
     "keywords": [
       "pompa sub-r",
       "pompa z pływakiem",
@@ -1700,11 +1765,11 @@ export default {
       "sub-r inox z pływakiem"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
     {
     "title": "Pompa wspoomagająca W15IH-10",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/W15IH-10_instrukcja_148x210_PL-EN.pdf?v=1748438915",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/W15IH-10_instrukcja_148x210_PL-EN.pdf",
     "keywords": [
       "pompa w15ih-10",
       "pompa do podnoszenia ciśnienia",
@@ -1713,11 +1778,11 @@ export default {
       "pompa ciśnieniowa"
     ],
     "brand": "IBO",
-    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png?v=1740995593"
+    "logo": "https://dambat.pl/cdn/shop/files/logo_ibo_clean.png"
   },
   {
     "title": "Naczynia przeponowe FIX C.O. C.W.U.",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Naczynia_przeponowe_FIX_CO_CWU_PL-EN.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Naczynia_przeponowe_FIX_CO_CWU_PL-EN.pdf",
     "keywords": [
       "naczynia przeponowe",
       "zbiornik fix",
@@ -1727,11 +1792,11 @@ export default {
       "naczynie przeponowe fix"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Zbiorniki membranowe FIX",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Zbiorniki_membranowe_FIX_PL-EN.pdf?v=1696935438",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Zbiorniki_membranowe_FIX_PL-EN.pdf",
     "keywords": [
       "zbiornik membranowy",
       "zbiornik fix",
@@ -1739,22 +1804,22 @@ export default {
       "naczynie membranowe"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Pompa obiegowa API [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/API_Instrukcja.pdf?v=1745586762",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/API_Instrukcja.pdf",
     "keywords": [
       "pompa obiegowa api",
       "pompa api",
       "api"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Sterownik IPC 122M - 130M [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_122M-130M_PL.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_122M-130M_PL.pdf",
     "keywords": [
       "sterownik ipc",
       "ipc 122m",
@@ -1763,11 +1828,11 @@ export default {
       "sterownik ipc 130m"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Sterownik IPC 140M - 1220 / 230V [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_140-1220_230V_PL.pdf?v=1696935446",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_140-1220_230V_PL.pdf",
     "keywords": [
       "sterownik ipc",
       "ipc 140m",
@@ -1777,11 +1842,11 @@ export default {
       "sterownik 230V"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Sterownik IPC 140M - 1220 / 400V [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_140-1220_400V_PL.pdf?v=1696935445",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_140-1220_400V_PL.pdf",
     "keywords": [
       "sterownik ipc",
       "ipc 140m",
@@ -1791,11 +1856,11 @@ export default {
       "sterownik 400V"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Sterownik IPC 240 - 2150 / 230 V [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_240-2150_230V_PL.pdf?v=1696935448",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPC_240-2150_230V_PL.pdf",
     "keywords": [
       "sterownik ipc",
       "ipc 240",
@@ -1805,11 +1870,11 @@ export default {
       "sterownik 230V"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Sterownik IPC 240 - 2150 / 400 V [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPRO_IPC_240-2150_400V_PL.pdf?v=1696935444",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_obslugi_IPRO_Sterowniki_IPRO_IPC_240-2150_400V_PL.pdf",
     "keywords": [
       "sterownik ipc",
       "ipc 240",
@@ -1819,11 +1884,11 @@ export default {
       "sterownik 400V"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Inteligentny kontroler pomp - Water-Pass [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/WATERPASS.pdf?v=1748515056",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/WATERPASS.pdf",
     "keywords": [
       "sterownik water",
       "water-pass",
@@ -1834,11 +1899,11 @@ export default {
       "sterownik pomp"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Pompa zatapialna z rozdrabniaczem WES [PL-EN]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_IPRO_WES.pdf?v=1748518318",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/Instrukcja_IPRO_WES.pdf",
     "keywords": [
       "wes",
       "pompa zatapialna",
@@ -1846,11 +1911,11 @@ export default {
       "pompa wes"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Szafa sterownicza SPP, SPS, SPD [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PR_instrukcja_Szafy_sterujace_148x210_PL.pdf?v=1749805745",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PR_instrukcja_Szafy_sterujace_148x210_PL.pdf",
     "keywords": [
       "szafa",
       "szafa sterownicza",
@@ -1860,11 +1925,11 @@ export default {
       "spd"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "MULTI PRESS 2 elektroniczny wyłącznik ciśnieniowy",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PR_instrukcja_MULTI_PRESS_2_BLUE_148x210_PL.pdf?v=1750759143",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PR_instrukcja_MULTI_PRESS_2_BLUE_148x210_PL.pdf",
     "keywords": [
       "multi",
       "multipress",
@@ -1874,11 +1939,11 @@ export default {
       "elektroniczny wyłącznik"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "PRO 1 elektroniczny wyłącznik ciśnieniowy [PL-ENG-DE]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PR_instrukcja_PRO_1_148x210_PL_ENG_DE.pdf?v=1751875780",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/IQ_PR_instrukcja_PRO_1_148x210_PL_ENG_DE.pdf",
     "keywords": [
       "pro",
       "pro1",
@@ -1888,11 +1953,11 @@ export default {
       "elektroniczny wyłącznik"
     ],
     "brand": "iQ PR",
-    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png?v=1740995460"
+    "logo": "https://dambat.pl/cdn/shop/files/IQ_PR_LOGO_bez_spadow.png"
   },
   {
     "title": "Alpha V, Alpha V EVO [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "alpha",
       "evo",
@@ -1901,11 +1966,11 @@ export default {
       "alpha v, alpha v evo"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "Alpha V PRO, Alpha V PRO-EX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "alpha",
       "ex",
@@ -1915,11 +1980,11 @@ export default {
       "alpha v pro, alpha v pro-ex"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "Compatta, Compatta EVO [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "instrukcja compatta, compatta evo",
       "evo",
@@ -1927,11 +1992,11 @@ export default {
       "compatta, compatta evo"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "Compatta PRO, Compatta PRO-EX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "ex",
       "instrukcja compatta pro, compatta pro-ex",
@@ -1940,21 +2005,21 @@ export default {
       "compatta"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "DNA [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "dna",
       "instrukcja dna"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "DNA-EX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "dna",
       "instrukcja dna-ex",
@@ -1962,21 +2027,21 @@ export default {
       "ex"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "DNB [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "instrukcja dnb",
       "dnb"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "DNB-EX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "dnb",
       "dnb-ex",
@@ -1984,11 +2049,11 @@ export default {
       "ex"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "VM 65/2, VT 65/2, VM 80/2, VT 80/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "80/2",
       "instrukcja vm 65/2, vt 65/2, vm 80/2, vt 80/2",
@@ -1998,11 +2063,11 @@ export default {
       "vm"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "VM-EX 65/2, VT-EX 65/2, VM-EX 80/2, VT-EX 80/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "vm-ex 65/2, vt-ex 65/2, vm-ex 80/2, vt-ex 80/2",
       "80/2",
@@ -2013,11 +2078,11 @@ export default {
       "vm"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "VM 65/4, VT 65/4, VM 80/4, VT 80/4, VT 100/4, VT 150/4 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "instrukcja vm 65/4, vt 65/4, vm 80/4, vt 80/4, vt 100/4, vt 150/4",
       "100/4",
@@ -2029,11 +2094,11 @@ export default {
       "65/4"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "VM-EX 65/4, VT-EX 65/4, VM-EX 80/4, VT-EX 80/4, VT-EX 100/4 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "ex",
       "100/4",
@@ -2045,11 +2110,11 @@ export default {
       "65/4"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "VTH 80/2, VTH 100/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf",
     "keywords": [
       "80/2",
       "instrukcja vth 80/2, vth 100/2",
@@ -2058,11 +2123,11 @@ export default {
       "vth 80/2, vth 100/2"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "VTH-EX 80/2, VT-EX 100/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf",
     "keywords": [
       "80/2",
       "ex",
@@ -2073,11 +2138,11 @@ export default {
       "instrukcja vth-ex 80/2, vt-ex 100/2"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "AM 65/2, AT 65/2, AM 80/2, AT 80/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "instrukcja am 65/2, at 65/2, am 80/2, at 80/2",
       "80/2",
@@ -2087,11 +2152,11 @@ export default {
       "at"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "AM-EX 65/2, AT-EX 65/2, AM-EX 80/2, AT-EX 80/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "80/2",
       "ex",
@@ -2102,11 +2167,11 @@ export default {
       "at"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "AM 80/4, AT 80/4, AT 100/4, AT 150/4, AT 200/4 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf",
     "keywords": [
       "am 80/4, at 80/4, at 100/4, at 150/4, at 200/4",
       "200/4",
@@ -2118,11 +2183,11 @@ export default {
       "at"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "AM-EX 80/4, AT-EX 80/4, AT-EX 100/4, AT-EX 150/4, AT-EX 200/4 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf",
     "keywords": [
       "instrukcja am-ex 80/4, at-ex 80/4, at-ex 100/4, at-ex 150/4, at-ex 200/4",
       "200/4",
@@ -2135,11 +2200,11 @@ export default {
       "am-ex 80/4, at-ex 80/4, at-ex 100/4, at-ex 150/4, at-ex 200/4"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "ATH 80/2, ATH 100/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf",
     "keywords": [
       "80/2",
       "100/2",
@@ -2148,11 +2213,11 @@ export default {
       "instrukcja ath 80/2, ath 100/2"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "ATH-EX 80/2, ATH-EX 100/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v4-vth-a4-ath-atex-od-95kw_908.pdf",
     "keywords": [
       "80/2",
       "ex",
@@ -2162,11 +2227,11 @@ export default {
       "ath-ex 80/2, ath-ex 100/2"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "GRIX 32-2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "2",
       "instrukcja grix 32-2",
@@ -2175,21 +2240,21 @@ export default {
       "32"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "GX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "gx",
       "instrukcja gx"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "GX-EX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "gx-ex",
       "instrukcja gx-ex",
@@ -2197,11 +2262,11 @@ export default {
       "ex"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "GM 50/2, GT 50/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "gt",
       "50/2",
@@ -2210,11 +2275,11 @@ export default {
       "gm 50/2, gt 50/2"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "GM-EX 50/2, GT-EX 50/2 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "gt",
       "50/2",
@@ -2224,11 +2289,11 @@ export default {
       "instrukcja gm-ex 50/2, gt-ex 50/2"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "BIC 40, BIC 50 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "40",
       "50",
@@ -2237,11 +2302,11 @@ export default {
       "bic"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "BIC PRO 50, BIC PRO-EX 50 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "ex",
       "50",
@@ -2251,11 +2316,11 @@ export default {
       "bic"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "BIC EVO [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "bic",
       "bic evo",
@@ -2263,11 +2328,11 @@ export default {
       "instrukcja bic evo"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "AM 40, AT 40, AM 50, AT 50 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "40",
       "am",
@@ -2277,11 +2342,11 @@ export default {
       "at"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "AM-EX 50, AT-EX 50 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "am-ex 50, at-ex 50",
       "ex",
@@ -2291,21 +2356,21 @@ export default {
       "at"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "APX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf?v=1698742897",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe_117.pdf",
     "keywords": [
       "apx",
       "instrukcja apx"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "APX PRO [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-przydomowe-atex_988.pdf",
     "keywords": [
       "apx",
       "instrukcja apx pro",
@@ -2313,11 +2378,11 @@ export default {
       "pro"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "HM 50, HT 50, HM 65, HT 65 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "65",
       "50",
@@ -2327,11 +2392,11 @@ export default {
       "hm"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "HM-EX 50, HT-EX 50, HT-EX 65 [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_pompy-profesionalne-v2-v4-a2-a4-g-h-atex-do-95kw_717.pdf",
     "keywords": [
       "65",
       "ex",
@@ -2342,21 +2407,21 @@ export default {
       "hm"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "Kappa [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_kappa_183.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_kappa_183.pdf",
     "keywords": [
       "kappa",
       "instrukcja kappa"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   },
   {
     "title": "Mieszadła śmigłowe DRX [PL]",
-    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_mieszadla_848.pdf?v=1679586759",
+    "href": "https://cdn.shopify.com/s/files/1/0707/2943/3375/files/instrukcja_dreno-pompe_mieszadla_848.pdf",
     "keywords": [
       "mieszadła śmigłowe drx",
       "instrukcja mieszadła śmigłowe drx",
@@ -2365,7 +2430,7 @@ export default {
       "śmigłowe"
     ],
     "brand": "Dreno",
-    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png?v=1674465929"
+    "logo": "https://dambat.pl/cdn/shop/files/Dreno_blu.png"
   }
 ];
 
