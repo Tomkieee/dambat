@@ -1,0 +1,75 @@
+<script>
+(function () {
+  // USTAWIENIA
+  const KEEP_FIRST_OPEN = true;   // zostawić pierwszą sekcję otwartą?
+  const KEEP_ACTIVE_OPEN = true;  // zostawić otwarte sekcje z zaznaczonym filtrem?
+  const BLOCKS =
+    '#snize_results .snize-filters-sidebar .snize-product-filters-block,' +
+    ' #snize-modal-mobile-filters-dialog .snize-filters-sidebar .snize-product-filters-block';
+
+  function hasActiveSelection(block) {
+    if (block.querySelector('input[type="checkbox"]:checked')) return true;
+    // Jeśli chcesz traktować min/max jako aktywne – odkomentuj:
+    // if ([...block.querySelectorAll('.snize-price-range-input')].some(i => i.value.trim() !== '')) return true;
+    return false;
+  }
+
+  function collapseNow() {
+    const blocks = document.querySelectorAll(BLOCKS);
+    blocks.forEach((block, idx) => {
+      const title = block.querySelector('.snize-product-filters-title');
+      const list  = block.querySelector('.snize-product-filters-list');
+      if (!title || !list) return;
+
+      const keepOpen =
+        (KEEP_FIRST_OPEN && idx === 0) ||
+        (KEEP_ACTIVE_OPEN && hasActiveSelection(block));
+
+      // jeśli ma zostać otwarta – nic nie rób
+      if (keepOpen) return;
+
+      // jeśli sekcja jest otwarta wg Snize – po prostu kliknij nagłówek, żeby ją zwinąć
+      const isOpen =
+        title.classList.contains('open') ||
+        title.getAttribute('aria-expanded') === 'true' ||
+        list.style.display === 'block';
+
+      if (isOpen) title.click();
+    });
+  }
+
+  // 1) Poczekaj aż filtry pojawią się w DOM i zwiń
+  let tries = 0;
+  const wait = setInterval(() => {
+    if (document.querySelector(BLOCKS + ' .snize-product-filters-title')) {
+      clearInterval(wait);
+      collapseNow();
+    } else if (++tries > 60) {
+      clearInterval(wait); // ~9s timeout – nic nie rób
+    }
+  }, 150);
+
+  // 2) Po każdym rerenderze Snize (używa jQuery eventu)
+  (function attachWhenReady() {
+    if (window.jQuery) {
+      jQuery(document).on('Searchanise.ResultsUpdated', () => {
+        // drobny debounce – gdy Snize modyfikuje DOM paczkami
+        requestAnimationFrame(collapseNow);
+      });
+    } else {
+      setTimeout(attachWhenReady, 200);
+    }
+  })();
+
+  // 3) Awaryjnie: gdyby Snize nie wysłał eventu – obserwuj DOM
+  const mo = new MutationObserver((mutations) => {
+    const hit = mutations.some(m =>
+      Array.from(m.addedNodes).some(n =>
+        n.nodeType === 1 && (n.matches?.(BLOCKS) || n.querySelector?.(BLOCKS))
+      )
+    );
+    if (hit) requestAnimationFrame(collapseNow);
+  });
+  mo.observe(document.documentElement, { childList: true, subtree: true });
+})();
+</script>
